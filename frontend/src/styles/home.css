@@ -1,0 +1,102 @@
+/**
+* HomePage
+ **/
+
+ #HomePage {
+    overflow: hidden;
+    background: url('../assets/mainblock.webp') no-repeat center;
+    width: 100%;
+    height: 964px;
+    margin-top: 0;
+    /*border: 10px solid #FF8700;*/
+}
+
+#HomePage h1 {
+    font-size: 18px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+}
+
+#HomePage .HomePage__logoMain {
+    width: 100%;
+    height:150px;
+    margin: 180px auto 0 auto;
+    display: block;
+
+}
+
+#HomePage .HomePage__headerUnderLogo {
+    width: 400px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    display: block;
+
+}
+
+#HomePage a.HomePage__btn-reserve {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    line-height: 55px;
+    border-radius: 5px;
+}
+
+#HomePage .HomePage__btn-reserve {
+    width: 300px;
+    height: 70px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    margin: 50px 0 0 0;
+}
+
+#HomePage a.HomePage__btn-reserve:hover {
+   line-height: 55px;
+}
+
+#HomePage .HomePage__btn-reserve:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+}
+
+#HomePage .HomePage__menu-block {
+    margin: 50px 0;
+}
+
+#HomePage .HomePage__menu-block ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#HomePage .HomePage__menu-block ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+}
+
+
+#HomePage .HomePage__menu-block ul li a:hover {
+    transition: all .5s;
+    color: #FF8700 !important;
+}
+
+#HomePage .HomePage__social-block {
+    margin: 20px 0;
+}
+
+#HomePage .HomePage__social-block img{
+    width: 40px;
+    height: 40px;
+}
+
+#HomePage .HomePage__social-block ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+

@@ -1,0 +1,70 @@
+/**
+* ArticlesPage
+ **/
+
+ #ArticlesPage {
+    overflow: hidden;
+    margin: 75px 0 0 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
+#ArticlesPage h1 {
+   font-size: 38px;
+   font-family: 'OpenSans-Light',sans-serif;
+   font-weight: 600;
+   margin: 40px 0 40px 0;
+   text-transform: uppercase;
+}
+
+#ArticlesPage h2 {
+   font-size: 20px;
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 400;
+   margin: 0 0 40px 0;
+}
+
+#ArticlesPage h2:hover {
+    transition: all .5s;
+    color: #FF8700 !important;
+}
+
+/*
+эскизы страниц
+*/
+
+#ArticlesPage .card {
+    min-height: 450px;
+    margin: 12px 0;
+    border: none !important;
+}
+
+#ArticlesPage .card-body {
+    background: #F7CBA8;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+#ArticlesPage .card p{
+   text-align: right;
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 400;
+}
+
+#ArticlesPage .card p:hover{
+   transition: all .5s;
+   color: #AB0508 !important;
+}
+
+#ArticlesPage .card a{
+    color: #000 !important;
+    font-family: 'OpenSans-Regular',sans-serif;
+}
+
+#ArticlesPage .card-img-top {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+

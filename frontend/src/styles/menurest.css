@@ -1,0 +1,73 @@
+/**
+* MenuPage
+ **/
+
+ #MenuPage {
+    overflow: hidden;
+    margin: 100px 0 0 0;
+    padding: 0 0 40px 0;
+
+}
+
+#MenuPage h1 {
+   font-size: 38px;
+   font-family: 'OpenSans-Light',sans-serif;
+   font-weight: 600;
+   margin: 40px 0 40px 0;
+   text-transform: uppercase;
+}
+
+#MenuPage h2 {
+   font-size: 30px;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 0 0 40px 0;
+   text-transform: uppercase;
+}
+
+#MenuPage h3 {
+   font-size: 24px;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 0 0 20px 5px;
+   text-transform: uppercase;
+}
+
+#MenuPage p{
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+
+}
+
+#MenuPage .MenuPage__photo_menu {
+   width: 980px;
+   height: 326px;
+   display: block;
+   margin: 0 auto;
+}
+
+#MenuPage .MenuPage__wine_menu,
+#MenuPage .MenuPage__winebar_menu,
+#MenuPage .MenuPage__bar_menu,
+#MenuPage .MenuPage__menu_menu{
+   margin: 30px 0;
+}
+
+
+#MenuPage .MenuPage__photo_item {
+   width: 500px;
+   height: 10px;
+   color: #ccc;
+   margin-top: 10px;
+}
+
+#MenuPage .table {
+   border: none !important;
+}
+
+#MenuPage .table>:not(caption)>*>* {
+   padding: 0.5rem 0.5rem;
+   border-bottom-width: 0 !important;
+}
+

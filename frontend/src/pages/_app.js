@@ -6,6 +6,9 @@ import '../styles/navbar.css';
 import '../styles/navbarMobile.css';
 import '../styles/home.css';
 import '../styles/about.css';
+import '../styles/menurest.css';
+import '../styles/article.css';
+import '../styles/articles.css';
 import '../styles/footer.css';
 
 export default function App({ Component, pageProps }) {

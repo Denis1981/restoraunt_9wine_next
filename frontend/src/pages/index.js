@@ -7,10 +7,9 @@ import Image from 'next/image';
 import { logoMain, headerUnderLogo, vk, tg} from "../assets";
 
 
-export default function Index() {
+export default function Index({ seoData }) {
 
   const [contacts, setContacts]=useState([]);
-  const [seoData, setSeoData]=useState([]);
 
      useEffect(()=>{
         const getContacts = async () => {
@@ -20,41 +19,30 @@ export default function Index() {
         getContacts()
     }, []);
 
-     useEffect(()=>{
-        const getSeoData = async () => {
-            const res = await axios.get(API_URL_SEO);
-            setSeoData(res.data);
-        }
-        getSeoData()
-    }, []);
-
   return (
     <>
-    {
-      seoData.map((seoData, i) => (
-            (seoData.id === 1)  && (
-            <div key={seoData.id}>
-                <MainLayout 
-                  title={seoData.title_page}
-                  description={seoData.description}
-                  keywords={seoData.keywords}
-                  og_type={seoData.og_type}
-                  og_title={seoData.og_title}
-                  og_description={seoData.og_description}
-                  twitter_creator={seoData.twitter_creator}
-                  twitter_card={seoData.twitter_card}
-                  twitter_title={seoData.twitter_title}
-                  twitter_description={seoData.twitter_description}
-                  >
-                </MainLayout>
-            </div>
-       )))
-      }
-
-     
+      {
+        seoData.map((seoItem, i) => (
+                (seoItem.id === 1)  && (
+                <div key={seoItem.id}>
+                    <MainLayout 
+                        title={seoItem.title_page}
+                        description={seoItem.description}
+                        keywords={seoItem.keywords}
+                        og_type={seoItem.og_type}
+                        og_title={seoItem.og_title}
+                        og_description={seoItem.og_description}
+                        twitter_creator={seoItem.twitter_creator}
+                        twitter_card={seoItem.twitter_card}
+                        twitter_title={seoItem.twitter_title}
+                        twitter_description={seoItem.twitter_description}
+                    >
+                    </MainLayout>
+                </div>
+        )))
+        }
 
       <main>
-
       <section id="HomePage">
             <div className="container">
                 <div className="row">
@@ -101,4 +89,17 @@ export default function Index() {
       </main>
     </>
   )
+}
+
+
+export async function getServerSideProps (context) {
+    
+    const res =  await fetch(API_URL_SEO);
+    const data = await res.json();
+   
+    return {
+        props: {
+            seoData: data
+        }  
+    }
 }

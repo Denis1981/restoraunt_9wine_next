@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from "axios";
-import {logoFooter} from '../../assets/logo-footer.svg';
+import {logoFooter} from '../../assets';
 import {API_URL_CONTACTS} from '../../api/constant';
+import Image from 'next/image'
 // import FormsReserve from '../../components/forms/FormsReserve';
 // import FormsCall from '../../components/forms/FormsCall';
 // import FormsReserveDegustation from '../../components/forms/FormReserveDegustation';
@@ -31,7 +32,14 @@ const Footer = () => {
                     {contacts.map((contacts, i) => (
                         <div className="col-xxl-3 text-center" key={contacts.id}>
                             <Link href="/" legacyBehavior>
-                                <a><img src="{logoFooter}" alt="" title="" className="logo" /></a>
+                                <a>
+                                  <Image 
+                                    src={logoFooter} 
+                                    alt="" 
+                                    title="" 
+                                    className="logo" 
+                                    />
+                                </a>
                             </Link>
                             <p dangerouslySetInnerHTML={{ __html: contacts.address}} className="address"/>
                             <p>

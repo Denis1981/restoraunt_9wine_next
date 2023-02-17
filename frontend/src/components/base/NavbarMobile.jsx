@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from "axios";
-import {logoFooter} from '../../assets/logo-footer.svg';
+import {logoFooter} from '../../assets';
 import {API_URL_CONTACTS} from '../../api/constant';
+import Image from 'next/image'
 
 const NavbarMobile = () => {
 
@@ -20,7 +21,14 @@ const NavbarMobile = () => {
             <>
                 <div className="container-fluid">
                     <Link className="navbar-brand" href="/" legacyBehavior>
-                        <a><img src={logoFooter} className="logo" alt="" title=""/></a>
+                        <a>
+                        <Image 
+                            src={ logoFooter } 
+                            className="logo" 
+                            alt="" 
+                            title=""
+                        />
+                        </a>
                     </Link>
                 </div>
                <input type="checkbox" id="overlay-input" />
@@ -31,7 +39,14 @@ const NavbarMobile = () => {
                     <ul>
                         <li className="nav-item inner-logo">
                             <Link className="navbar-brand" href="/" legacyBehavior>
-                                <a><img src={logoFooter} className="logo" alt="" title=""/></a>
+                                <a>
+                                    <Image 
+                                        src={logoFooter} 
+                                        className="logo" 
+                                        alt="" 
+                                        title=""
+                                    />
+                                </a>
                             </Link>
                         </li>
                         <li className="nav-item">

@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from "axios";
 import Image from 'next/image'
 import MainLayout from '../components/base/MainLayout'
+import Navbar from '../components/base/Navbar'
 import Footer from '../components/base/Footer'
 import { API_URL_SALE, API_URL_SEO } from '../api/constant';
 import { image1_about,
@@ -15,13 +15,10 @@ import { image1_about,
          image6_aboutBlock,
          image1_karaokeBlock
 } from "../assets";
-import Navbar from '../components/base/Navbar'
 
-
-const about = () => {
+const about = ({ seoData }) => {
 
     const [sale, setSale]=useState([]);
-    const [seoData, setSeoData]=useState([]);
 
      useEffect(()=>{
         const getSale = async () => {
@@ -31,31 +28,23 @@ const about = () => {
         getSale()
     }, []);
 
-     useEffect(()=>{
-        const getSeoData = async () => {
-            const res = await axios.get(API_URL_SEO);
-            setSeoData(res.data);
-        }
-        getSeoData()
-    }, []);
-
     return (
     <>
         {
-        seoData.map((seoData, i) => (
-                (seoData.id === 2)  && (
-                <div key={seoData.id}>
+        seoData.map((seoItem, i) => (
+                (seoItem.id === 2)  && (
+                <div key={seoItem.id}>
                     <MainLayout 
-                        title={seoData.title_page}
-                        description={seoData.description}
-                        keywords={seoData.keywords}
-                        og_type={seoData.og_type}
-                        og_title={seoData.og_title}
-                        og_description={seoData.og_description}
-                        twitter_creator={seoData.twitter_creator}
-                        twitter_card={seoData.twitter_card}
-                        twitter_title={seoData.twitter_title}
-                        twitter_description={seoData.twitter_description}
+                        title={seoItem.title_page}
+                        description={seoItem.description}
+                        keywords={seoItem.keywords}
+                        og_type={seoItem.og_type}
+                        og_title={seoItem.og_title}
+                        og_description={seoItem.og_description}
+                        twitter_creator={seoItem.twitter_creator}
+                        twitter_card={seoItem.twitter_card}
+                        twitter_title={seoItem.twitter_title}
+                        twitter_description={seoItem.twitter_description}
                     >
                     </MainLayout>
                 </div>
@@ -202,7 +191,7 @@ const about = () => {
            </section>
            </main>
 
-           <footer>
+            <footer>
                 <Footer/>
             </footer>
             
@@ -234,3 +223,15 @@ const about = () => {
 }
 
 export default about;
+
+export async function getServerSideProps (context) {
+    
+    const res =  await fetch(API_URL_SEO);
+    const data = await res.json();
+   
+    return {
+        props: {
+            seoData: data
+        }  
+    }
+}

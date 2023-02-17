@@ -16,7 +16,7 @@ import { image1_about,
          image1_karaokeBlock
 } from "../assets";
 
-const about = ({ seoData }) => {
+const About = ({ seoData }) => {
 
     const [sale, setSale]=useState([]);
 
@@ -222,7 +222,7 @@ const about = ({ seoData }) => {
     </>);
 }
 
-export default about;
+export default About;
 
 export async function getServerSideProps (context) {
     

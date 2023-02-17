@@ -44,7 +44,7 @@ const ArticlesPage = ({ articles, seoData }) => {
                     {articles.map((article) => 
                         <div className="col-xxl-4" key={article.id}>
                             <div className="card">
-                                <Image 
+                                <img 
                                     src={article.photo}
                                     className="card-img-top z-depth-1" 
                                     alt={article.category} title=""

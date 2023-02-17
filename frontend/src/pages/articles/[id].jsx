@@ -2,9 +2,9 @@ import Router from "next/router";
 import MainLayout from '../../components/base/MainLayout'
 import Navbar from '../../components/base/Navbar'
 import Footer from '../../components/base/Footer'
-import { API_URL_ARTICLE, API_URL_SEO } from '../../api/constant';
+import { API_URL_ARTICLE} from '../../api/constant';
 
-const Article = ({ seoData, articles }) => {
+const Article = ({articles }) => {
     
     const linkClickHandler = () => {
         Router.push('/')
@@ -12,19 +12,19 @@ const Article = ({ seoData, articles }) => {
 
     return (
         <>
-        {seoData && (
-              <div key={seoData.id}>
+        {articles && (
+              <div key={articles.id}>
                 <MainLayout 
-                    title={seoData.title_page}
-                    description={seoData.description}
-                    keywords={seoData.keywords}
-                    og_type={seoData.og_type}
-                    og_title={seoData.og_title}
-                    og_description={seoData.og_description}
-                    twitter_creator={seoData.twitter_creator}
-                    twitter_card={seoData.twitter_card}
-                    twitter_title={seoData.twitter_title}
-                    twitter_description={seoData.twitter_description}
+                    title={articles.title_page}
+                    description={articles.description}
+                    keywords={articles.keywords}
+                    og_type={articles.og_type}
+                    og_title={articles.og_title}
+                    og_description={articles.og_description}
+                    twitter_creator={articles.twitter_creator}
+                    twitter_card={articles.twitter_card}
+                    twitter_title={articles.twitter_title}
+                    twitter_description={articles.twitter_description}
                 >
                 </MainLayout>
           </div>
@@ -91,13 +91,10 @@ export async function getServerSideProps (context) {
 
     const res =  await fetch(API_URL_ARTICLE + `${id}` + '/?format=json');
     const data = await res.json();
-    const resSeo =  await fetch(API_URL_SEO);
-    const dataSeo = await resSeo.json();
    
     return {
         props: {
             articles: data,
-            seoData: dataSeo
         }  
     }
 }

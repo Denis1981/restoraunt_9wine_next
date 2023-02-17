@@ -12,7 +12,11 @@ import '../styles/articles.css';
 import '../styles/celebrates.css';
 import '../styles/reviews.css';
 import '../styles/nightclub.css';
+import '../styles/wineevening.css';
+import '../styles/birthday.css';
+import '../styles/gallery.css';
 import '../styles/contacts.css';
+import '../styles/polytics.css';
 import '../styles/footer.css';
 import '../styles/map.css';
 

@@ -11,7 +11,6 @@ const MainLayout = ({
     twitter_card,
     twitter_title,
     twitter_description,
-    children
  }) => {
   return (
     <>

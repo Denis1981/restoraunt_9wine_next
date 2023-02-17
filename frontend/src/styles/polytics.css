@@ -1,0 +1,26 @@
+/**
+* PolyticSpage
+**/
+
+#PolyticSpage {
+    overflow: hidden;
+    background: #fff;
+    padding: 40px 0;
+    margin: 75px 0 0 0;
+}
+
+#PolyticSpage h2 {
+    font-size: 28px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+    line-height: 50px;
+
+}
+
+#PolyticSpage p  {
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 300;
+}

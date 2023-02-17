@@ -209,7 +209,7 @@ const About = ({ seoData }) => {
                                 alt="" 
                                 title={sale.itemSale1} 
                             />
-                          <p dangerouslySetInnerHTML={{ __html: sale.contentPopup }}/>
+                          <div dangerouslySetInnerHTML={{ __html: sale.contentPopup }}/>
                       </div>
                      ))
                     }

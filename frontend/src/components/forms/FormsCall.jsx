@@ -1,9 +1,8 @@
-import React from "react";
-import {useState, useEffect} from "react";
-import {Link} from 'react-router-dom';
+import {useState} from "react";
+import Link from 'next/link'
 import axios from "axios";
 import {API_URL_CREATE_CALL} from '../../api/constant';
-import "./index.css";
+
 
 const FormsCall = () => {
 
@@ -20,7 +19,6 @@ const FormsCall = () => {
     };
 
     const handleSubmit = (e) => {
-        //e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_CALL,
@@ -29,7 +27,6 @@ const FormsCall = () => {
               phone: data.phone,
           }
         });
-        // console.log(data)
     };
 
     return (<>
@@ -42,7 +39,7 @@ const FormsCall = () => {
                         <input type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
                     </div>
                     <div className="text-center">
-                        <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link to="/polytics">политики конфиденциальности</Link></p>
+                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a>политики конфиденциальности</a></Link></p>
                     </div>
                     <button type="submit" className="btn btn-reserve mt-2 z-depth-1">Заказать звонок</button>
                 </form>

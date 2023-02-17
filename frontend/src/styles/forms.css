@@ -1,0 +1,37 @@
+/**
+* forms
+**/
+
+.blockForm .btn-reserve {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 0;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 5px auto 20px auto;
+}
+
+.blockForm .btn-reserve:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
+
+.blockForm .form-label,
+.blockForm input{
+     font-family: 'OpenSans-Regular',sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+}
+
+.blockForm .formReserve p{
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}

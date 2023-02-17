@@ -19,6 +19,7 @@ import '../styles/contacts.css';
 import '../styles/polytics.css';
 import '../styles/footer.css';
 import '../styles/map.css';
+import '../styles/forms.css';
 
 export default function App({ Component, pageProps }) {
 

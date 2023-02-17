@@ -1,9 +1,8 @@
-import React from "react";
-import {useState, useEffect} from "react";
-import {Link} from 'react-router-dom';
+import {useState} from "react";
+import Link from 'next/link'
 import axios from "axios";
 import {API_URL_CREATE_HAPPY} from '../../api/constant';
-import "./index.css";
+
 
 const FormsReserveHappy = () => {
 
@@ -24,7 +23,6 @@ const FormsReserveHappy = () => {
     };
 
     const handleSubmit = (e) => {
-        //e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_HAPPY,
@@ -37,7 +35,6 @@ const FormsReserveHappy = () => {
               comment: data.comment
           }
         });
-        // console.log(data)
     };
 
     return (<>
@@ -65,7 +62,7 @@ const FormsReserveHappy = () => {
                         <textarea className="form-control" id="comment" placeholder="Комментарий к заказу" name="comment" onChange={handleChange} value={data.comment}/>
                     </div>
                     <div className="text-center">
-                        <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link to="/polytics">политики конфиденциальности</Link></p>
+                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a>политики конфиденциальности</a></Link></p>
                     </div>
                     <button type="submit" className="btn btn-reserve mt-2 z-depth-1">Зарезервировать стол</button>
                 </form>

@@ -4,10 +4,10 @@ import axios from "axios";
 import {logoFooter} from '../../assets';
 import {API_URL_CONTACTS} from '../../api/constant';
 import Image from 'next/image'
-// import FormsReserve from '../../components/forms/FormsReserve';
-// import FormsCall from '../../components/forms/FormsCall';
-// import FormsReserveDegustation from '../../components/forms/FormReserveDegustation';
-// import FormsReserveHappy from '../../components/forms/FormReserveHappy';
+import FormsReserve from '../../components/forms/FormsReserve';
+import FormsCall from '../../components/forms/FormsCall';
+import FormsReserveDegustation from '../../components/forms/FormReserveDegustation';
+import FormsReserveHappy from '../../components/forms/FormReserveHappy';
 
 const Footer = () => {
 
@@ -87,7 +87,7 @@ const Footer = () => {
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
                   </div>
                   <div className="modal-body">
-                     {/* <FormsReserve /> */}
+                     <FormsReserve />
                   </div>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Footer = () => {
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
                   </div>
                   <div className="modal-body">
-                     {/* <FormsCall /> */}
+                     <FormsCall />
                   </div>
                 </div>
               </div>
@@ -116,7 +116,7 @@ const Footer = () => {
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
                   </div>
                   <div className="modal-body">
-                     {/* <FormsReserveDegustation /> */}
+                     <FormsReserveDegustation />
                   </div>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const Footer = () => {
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
                   </div>
                   <div className="modal-body">
-                     {/* <FormsReserveHappy /> */}
+                     <FormsReserveHappy />
                   </div>
                 </div>
               </div>

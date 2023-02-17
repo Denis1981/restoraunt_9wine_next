@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from "axios";
 import { API_URL_CONTACTS, API_URL_SEO } from '../api/constant';
 import MainLayout from '../components/base/MainLayout'
+import FormsReserve from '../components/forms/FormsReserve';
 import Image from 'next/image';
 import { logoMain, headerUnderLogo, vk, tg} from "../assets";
 
@@ -87,6 +88,19 @@ export default function Index({ seoData }) {
             </div>
         </section>
       </main>
+            <div className="modal fade" id="reserveModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Для того, чтобы зарезервировать стол в нашем ресторане, заполните форму</h3>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                  </div>
+                  <div className="modal-body">
+                         <FormsReserve />
+                  </div>
+                </div>
+              </div>
+            </div>
     </>
   )
 }

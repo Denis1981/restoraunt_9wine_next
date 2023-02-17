@@ -4,7 +4,7 @@ import Navbar from '../../components/base/Navbar'
 import Footer from '../../components/base/Footer'
 import { API_URL_ARTICLE, API_URL_SEO } from '../../api/constant';
 
-const ArticlePage = ({ seoData, articles }) => {
+const Article = ({ seoData, articles }) => {
     
     const linkClickHandler = () => {
         Router.push('/')
@@ -63,7 +63,7 @@ const ArticlePage = ({ seoData, articles }) => {
     </>);
 };
 
-export default ArticlePage;
+export default Article;
 
 export const getStaticPath = async () => {
     const res =  await fetch(API_URL_ARTICLE);

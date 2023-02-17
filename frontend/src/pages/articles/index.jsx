@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import MainLayout from '../../components/base/MainLayout'
 import Navbar from '../../components/base/Navbar'
 import Footer from '../../components/base/Footer'
 import { API_URL_ARTICLES, API_URL_SEO } from '../../api/constant';
 
-const ArticlesPage = ({ articles, seoData }) => {
+const Articles = ({ articles, seoData }) => {
 
     return (
         <>
@@ -72,7 +71,7 @@ const ArticlesPage = ({ articles, seoData }) => {
     </>);
 }
 
-export default ArticlesPage;
+export default Articles;
 
 export async function getServerSideProps () {
     

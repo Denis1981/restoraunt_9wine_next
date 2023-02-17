@@ -204,12 +204,10 @@ const About = ({ seoData }) => {
                     {
                     sale.map((sale, i) => (
                       <div className="modal-body" key={sale.id}>
-                          <Image 
+                          <img 
                                 src={sale.photo} 
                                 alt="" 
                                 title={sale.itemSale1} 
-                                width="64" 
-                                height="400"
                             />
                           <p dangerouslySetInnerHTML={{ __html: sale.contentPopup }}/>
                       </div>

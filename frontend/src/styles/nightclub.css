@@ -1,0 +1,122 @@
+/**
+* NightclubScreen1
+ **/
+
+ #NightclubScreen1 {
+    overflow: hidden;
+    margin: -50px 0 0 0;
+    background: url('../assets/nightclub-screen1.webp') no-repeat;
+    height: 900px;
+}
+
+#NightclubScreen1 h1 {
+   font-size: 58px;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 350px 0 40px 0;
+   text-transform: uppercase;
+   color: #fff;
+}
+
+#NightclubScreen1 p {
+   font-size: 20px;
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 600;
+   margin: 10px auto 20px auto;
+   color: #fff;
+}
+
+#NightclubScreen1 .btn-reserve {
+   display: block;
+   width: 400px;
+   height: 60px;
+   border-radius: 5px;
+   color: #000;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 0 auto 0 auto;
+   background: #D7D6CD;
+}
+
+#NightclubScreen1 .btn-reserve:hover {
+   transition: all .5s;
+   background: #AB0508 !important;
+   border: none;
+   color: #fff;
+
+}
+
+
+
+/**
+* NightclubScreen2
+**/
+
+#NightclubScreen2 {
+    overflow: hidden;
+    margin: 50px 0 50px 0;
+    /*background: url('./../../assets/background.webp');*/
+    background: #fff;
+}
+
+#NightclubScreen2 h2 {
+   font-size: 30px;
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 400;
+   margin: 100px 0 40px 0;
+}
+
+#NightclubScreen2 .NightclubScreen2__block1 {
+   margin: 10px auto 20px auto;
+}
+
+#NightclubScreen2 .NightclubScreen2__block2 {
+   margin: 200px auto 20px auto;
+}
+
+#NightclubScreen2 p {
+   font-size: 20px;
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 600;
+   color: #000;
+   margin: 20px 0;
+}
+
+#NightclubScreen2 img {
+   width: 100%;
+   border-radius: 5px;
+   height: 450px;
+   margin: 20px 0;
+}
+
+#NightclubScreen2 .NightclubScreen2__image3,
+#NightclubScreen2 .NightclubScreen2__image4,
+#NightclubScreen2 .NightclubScreen2__image5{
+   height: 350px;
+   display: block;
+   margin: 20px auto;
+}
+
+#NightclubScreen2 .btn-reserve {
+   display: block;
+   width: 400px;
+   height: 60px;
+   border-radius: 5px;
+   color: #000;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 30px auto 0 auto;
+   border: 2px solid #AB0508;
+}
+
+#NightclubScreen2 .btn-reserve:hover {
+   transition: all .5s;
+   background: #AB0508 !important;
+   border: none;
+   color: #fff;
+
+}

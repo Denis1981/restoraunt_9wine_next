@@ -15,7 +15,7 @@ import {
     line_menu
 } from "../assets";
 
-const MenuPage = ({ seoData }) => {
+const Menu = ({ seoData }) => {
 
      const [menus, setMenus]=useState([]);
      const [loading, setLoading]=useState([false]);
@@ -158,7 +158,7 @@ const MenuPage = ({ seoData }) => {
         </>);
 };
 
-export default MenuPage;
+export default Menu;
 
 export async function getServerSideProps (context) {
     

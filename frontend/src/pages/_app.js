@@ -9,7 +9,12 @@ import '../styles/about.css';
 import '../styles/menurest.css';
 import '../styles/article.css';
 import '../styles/articles.css';
+import '../styles/celebrates.css';
+import '../styles/reviews.css';
+import '../styles/nightclub.css';
+import '../styles/contacts.css';
 import '../styles/footer.css';
+import '../styles/map.css';
 
 export default function App({ Component, pageProps }) {
 

@@ -1,0 +1,58 @@
+/**
+* ContactsPage
+**/
+
+#ContactsPage {
+    overflow: hidden;
+    background: #fff;
+    padding: 0 0;
+    margin: 100px 0 50px 0;
+}
+
+#ContactsPage h2 {
+    font-size: 28px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 40px 0;
+}
+
+#ContactsPage a  {
+    color: #000;
+}
+
+#ContactsPage a:hover  {
+    transition: all .5s;
+    color: #FF8700 !important;
+}
+
+#ContactsPage p  {
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 300;
+}
+
+#ContactsPage p > b, #ContactsPage p > strong {
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 400;
+}
+
+#ContactsPage .ContactsPage__social-block {
+    margin: 20px 0;
+}
+
+#ContactsPage .ContactsPage__social-block ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#ContactsPage ul.ContactsPage__time > li{
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+

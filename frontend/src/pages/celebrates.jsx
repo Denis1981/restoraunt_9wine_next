@@ -57,10 +57,8 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2 className="">
-                                <Link href="" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal" legacyBehavior>
-                                    <a>Забронировать стол</a>
-                                </Link>
+                            <h2 data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">
+                                Забронировать стол
                             </h2>
                         </div>
                     </div>

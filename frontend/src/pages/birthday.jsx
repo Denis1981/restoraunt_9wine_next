@@ -1,9 +1,10 @@
-import MainLayout from '../components/base/MainLayout'
-import Navbar from '../components/base/Navbar'
-import Footer from '../components/base/Footer'
+import MainLayout from '../components/base/MainLayout';
+import Navbar from '../components/base/Navbar';
+import Footer from '../components/base/Footer';
+import ImageGalleryBirthday from '../components/gallery/ImageGalleryBirthday';
 import {
     photo_menu,
-} from "../assets";
+} from "../../public";
 
 import { API_URL_BIRTHDAY, API_URL_SEO } from '../api/constant';
 
@@ -35,11 +36,73 @@ const Birthday = ({ birth, seoData }) => {
             <Navbar/>
         </header>
         <main>
-        <section id="BirthdayPage">
+            
+        <section id="BirthdayPage1">
             <div className="container">
-                <h2>BirthdayPage</h2>
+                <div className="row">
+                    <div className="col-xxl-12">
+
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section id="BirthdayPage2">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xxl-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="BirthdayPage3">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xxl-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="BirthdayPage4">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xxl-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="BirthdayPage5">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xxl-12 text-center">
+                        <h2>Посмотрите, какие эмоции вы получите, <br /> отпраздновав свой праздник у нас</h2>
+                        <p>Мы можем пригласить фотографа на ваше мероприятие</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <ImageGalleryBirthday />
+                </div>
+            </div>
+        </section>
+
+        <section id="BirthdayPage6">
+            <div className="container">
+                <div className="row">
+                    <div className="col-xxl-12">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         </main>
         <footer>
             <Footer/>

@@ -26,3 +26,20 @@ export const imageData = [
 
 ];
 
+
+export const imageDataBirth = [
+  {
+    id: 0,
+    alt: "",
+    title: "",
+    link: "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+  },
+  {
+    id: 1,
+    alt: "",
+    title: "",
+    link: ""
+ }
+
+];
+

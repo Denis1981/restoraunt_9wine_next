@@ -14,7 +14,7 @@ import { image1_about,
          image5_aboutBlock,
          image6_aboutBlock,
          image1_karaokeBlock
-} from "../assets";
+} from "../../public";
 
 const About = ({ seoData }) => {
 

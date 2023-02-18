@@ -5,7 +5,7 @@ import { API_URL_CONTACTS, API_URL_SEO } from '../api/constant';
 import MainLayout from '../components/base/MainLayout'
 import FormsReserve from '../components/forms/FormsReserve';
 import Image from 'next/image';
-import { logoMain, headerUnderLogo, vk, tg} from "../assets";
+import { logoMain, headerUnderLogo, vk, tg} from "../../public";
 
 
 export default function Index({ seoData }) {

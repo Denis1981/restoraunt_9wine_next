@@ -9,7 +9,7 @@ import {
     night_image3,
     night_image4,
     night_image5
-} from "../assets";
+} from "../../public";
 
 const NightclubPage = ({ seoData }) => {
 

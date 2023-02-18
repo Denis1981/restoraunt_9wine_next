@@ -13,7 +13,7 @@ import {
     bar_menu,
     menu_menu,
     line_menu
-} from "../assets";
+} from "../../public";
 
 const Menu = ({ seoData }) => {
 

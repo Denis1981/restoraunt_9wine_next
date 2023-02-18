@@ -3,7 +3,7 @@ import Navbar from '../components/base/Navbar'
 import Footer from '../components/base/Footer'
 import {
     photo_menu,
-} from "../assets";
+} from "../../public";
 
 import { API_URL_DEGUSTATION, API_URL_SEO } from '../api/constant';
 

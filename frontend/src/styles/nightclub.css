@@ -5,7 +5,7 @@
  #NightclubScreen1 {
     overflow: hidden;
     margin: -50px 0 0 0;
-    background: url('../assets/nightclub-screen1.webp') no-repeat;
+    background: url('../../public/nightclub-screen1.webp') no-repeat;
     height: 900px;
 }
 

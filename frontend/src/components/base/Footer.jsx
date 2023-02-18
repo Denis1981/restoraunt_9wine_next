@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from "axios";
-import {logoFooter} from '../../assets';
+import {logoFooter} from '../../../public';
 import {API_URL_CONTACTS} from '../../api/constant';
 import Image from 'next/image'
 import FormsReserve from '../../components/forms/FormsReserve';

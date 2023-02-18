@@ -11,7 +11,7 @@ import {
     degustation,
     gallery,
     nightclub,
-} from "../assets";
+} from "../../public";
 
 const Celebrates = ({ seoData }) => {
 

@@ -1,6 +1,5 @@
 import {useState} from "react";
 import { Image } from 'antd';
-import {imageDataBirth} from '../../constants/data';
 
 const ImageGalleryCelebrates = () => {
 
@@ -10,61 +9,52 @@ const ImageGalleryCelebrates = () => {
         <>
             <div className="col-xxl-5">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth1.webp"
                     className="BirthdayPage5_image_1"
                 />
             </div>
             <div className="col-xxl-2">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth2.webp"
                     className="BirthdayPage5_image_2"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth3.webp"
                     className="BirthdayPage5_image_3"
                 />
             </div>
             <div className="col-xxl-6">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth4.webp"
                     className="BirthdayPage5_image_4"
                 />
             </div>
             <div className="col-xxl-6">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth5.webp"
                     className="BirthdayPage5_image_5"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth6.webp"
                     className="BirthdayPage5_image_6"
                 />
             </div>
             <div className="col-xxl-2">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth7.webp"
                     className="BirthdayPage5_image_7"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
-                    width={400}
-                    src=""
+                    src="/birth8.webp"
                     className="BirthdayPage5_image_8"
                 />
             </div>      
-            
         </>);
 };
 

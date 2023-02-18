@@ -5,7 +5,6 @@
  #BirthdayPage1 {
     overflow: hidden;
     margin: 75px 0 0 0;
-    padding: 0 0 40px 0;
     background: #fff;
 }
 
@@ -24,11 +23,37 @@
     margin: 0 0 40px 0;
 }
 
+#BirthdayPage2 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
+#BirthdayPage3 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
+#BirthdayPage4 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
+#BirthdayPage5 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
 
 #BirthdayPage5 img {
-    width: 100%;
-    height: 400px;
-    padding: 10px 0;
+    margin: 5px 5px;
 }
 
 #BirthdayPage5 h2 {
@@ -39,21 +64,41 @@
     text-transform: uppercase;
  }
 
+ #BirthdayPage5 p {
+    font-size: 18px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+ }
+
  #BirthdayPage5 .BirthdayPage5_image_1,
  #BirthdayPage5 .BirthdayPage5_image_3 {
-    height: auto;
-    width: 100%;
+    height: 350px;
+    width: 540px;
  }
 
  #BirthdayPage5 .BirthdayPage5_image_4,
  #BirthdayPage5 .BirthdayPage5_image_5 {
-    height: auto;
-    width: 100%;
+    height: 400px;
+    width: 650px;
  }
 
  #BirthdayPage5 .BirthdayPage5_image_2,
  #BirthdayPage5 .BirthdayPage5_image_7 {
-    height: auto;
-    width: 100%;
+    height: 350px;
+    width: 210px;
  }
 
+ #BirthdayPage5 .BirthdayPage5_image_6,
+ #BirthdayPage5 .BirthdayPage5_image_8 {
+    height: 350px;
+    width: 540px;
+ }
+
+
+ #BirthdayPage6 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}

@@ -10,49 +10,49 @@ const ImageGalleryCelebrates = () => {
             <div className="col-xxl-5">
                 <Image
                     src="/birth1.webp"
-                    className="BirthdayPage5_image_1"
+                    className="BirthdayBlock5_image_1 z-depth-1"
                 />
             </div>
             <div className="col-xxl-2">
                 <Image
                     src="/birth2.webp"
-                    className="BirthdayPage5_image_2"
+                    className="BirthdayBlock5_image_2 z-depth-1"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
                     src="/birth3.webp"
-                    className="BirthdayPage5_image_3"
+                    className="BirthdayBlock5_image_3 z-depth-1"
                 />
             </div>
             <div className="col-xxl-6">
                 <Image
                     src="/birth4.webp"
-                    className="BirthdayPage5_image_4"
+                    className="BirthdayBlock5_image_4 z-depth-1"
                 />
             </div>
             <div className="col-xxl-6">
                 <Image
                     src="/birth5.webp"
-                    className="BirthdayPage5_image_5"
+                    className="BirthdayBlock5_image_5 z-depth-1"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
                     src="/birth6.webp"
-                    className="BirthdayPage5_image_6"
+                    className="BirthdayBlock5_image_6 z-depth-1"
                 />
             </div>
             <div className="col-xxl-2">
                 <Image
                     src="/birth7.webp"
-                    className="BirthdayPage5_image_7"
+                    className="BirthdayBlock5_image_7 z-depth-1"
                 />
             </div>
             <div className="col-xxl-5">
                 <Image
                     src="/birth8.webp"
-                    className="BirthdayPage5_image_8"
+                    className="BirthdayBlock5_image_8 z-depth-1"
                 />
             </div>      
         </>);

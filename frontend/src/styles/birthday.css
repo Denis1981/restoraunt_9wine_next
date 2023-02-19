@@ -2,103 +2,298 @@
 * BirthdayPage
  **/
 
- #BirthdayPage1 {
+ #BirthdayBlock1 {
     overflow: hidden;
     margin: 75px 0 0 0;
-    background: #fff;
+    background: #FFC29E;
+    padding: 50px 0 50px 0;
 }
 
-#BirthdayPage1 h1 {
+#BirthdayBlock1 h1 {
    font-size: 38px;
-   font-family: 'OpenSans-Light',sans-serif;
-   font-weight: 600;
-   margin: 40px 0 40px 0;
-   text-transform: uppercase;
+   font-family: 'OpenSans-Bold',sans-serif;
+   font-weight: 800;
+   margin: 10px 0 40px 0;
 }
 
-#BirthdayPage1 h2 {
+#BirthdayBlock1 .BirthdayBlock1_image{
+    height: 350px;
+    width: 725px;
+    border-radius: 5px;
+ }
+
+ #BirthdayBlock1 .btn-reserve-menu {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+
+}
+
+#BirthdayBlock1 .btn-reserve-menu:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
+
+#BirthdayBlock1 p {
+    font-size: 22px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+ }
+
+ #BirthdayBlock1 .BirthdayBlock1__price {
+    font-size: 28px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+ }
+
+#BirthdayBlock1 h2,
+#BirthdayBlock2 h2,
+#BirthdayBlock3 h2,
+#BirthdayBlock4 h2 {
     font-size: 45px;
     font-family: 'OpenSans-Bold',sans-serif;
     font-weight: 800;
-    margin: 0 0 40px 0;
+    margin: 60px 0 60px 0;
+    text-align: center;
 }
 
-#BirthdayPage2 {
+#BirthdayBlock2 {
     overflow: hidden;
-    margin: 25px 0;
+    margin: 0 0;
+    padding: 40px 0 40px 0;
+    background: #fff;
+}
+
+#BirthdayBlock2 p {
+    font-size: 18px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+ }
+
+ #BirthdayBlock2 .BirthdayBlock2_image{
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+ }
+
+#BirthdayBlock3 {
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0 70px 0;
+    background: #FFC29E;
+}
+
+#BirthdayBlock3 h3 {
+    font-size: 24px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 20px 0 20px 0;
+}
+
+ #BirthdayBlock3 .BirthdayBlock3_image {
+    height: 400px;
+    width: 100%;
+    border-radius: 5px;
+ }
+
+ #BirthdayBlock3 .btn-reserve-menu {
+    width: 200px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+
+}
+
+#BirthdayBlock3 .btn-reserve-menu:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
+
+#BirthdayBlock4 {
+    overflow: hidden;
+    margin: 0 0;
+    padding: 0 0 60px 0;
+    background: #fff;
+}
+
+#BirthdayBlock4 h3{
+    font-size: 24px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 20px 0 20px 0;
+    color: #fff;
+    line-height: 40px;
+}
+
+#BirthdayBlock4 .card{
+    width: 500px;
+    margin: 0 auto;
+}
+
+#BirthdayBlock4 .card-body-h3 {
+    background: #AB0508;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+}
+
+#BirthdayBlock4 p{
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#BirthdayBlock4 p.quota{
+    color: ##E7E4E4;
+}
+
+#BirthdayBlock4 p.price{
+    font-size: 26px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+#BirthdayBlock4 p.price > span{
+    font-weight: 400;
+}
+
+#BirthdayBlock4 ul li{
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    text-align: left;
+}
+
+
+
+#BirthdayBlock5 {
+    overflow: hidden;
+    margin: 0 0;
     padding: 0 0 40px 0;
     background: #fff;
 }
 
-#BirthdayPage3 {
-    overflow: hidden;
-    margin: 25px 0;
-    padding: 0 0 40px 0;
-    background: #fff;
-}
-
-#BirthdayPage4 {
-    overflow: hidden;
-    margin: 25px 0;
-    padding: 0 0 40px 0;
-    background: #fff;
-}
-
-#BirthdayPage5 {
-    overflow: hidden;
-    margin: 25px 0;
-    padding: 0 0 40px 0;
-    background: #fff;
-}
-
-
-#BirthdayPage5 img {
+#BirthdayBlock5 img {
     margin: 5px 5px;
 }
 
-#BirthdayPage5 h2 {
+#BirthdayBlock5 h2 {
     font-size: 45px;
     font-family: 'OpenSans-Bold',sans-serif;
     font-weight: 800;
     margin: 0 0 40px 0;
-    text-transform: uppercase;
  }
 
- #BirthdayPage5 p {
+ #BirthdayBlock5 p {
+    font-size: 22px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+ }
+
+ #BirthdayBlock5 .BirthdayBlock5_image_1,
+ #BirthdayBlock5 .BirthdayBlock5_image_3 {
+    height: 350px;
+    width: 540px;
+    border-radius: 5px;
+ }
+
+ #BirthdayBlock5 .BirthdayBlock5_image_4,
+ #BirthdayBlock5 .BirthdayBlock5_image_5 {
+    height: 400px;
+    width: 650px;
+    border-radius: 5px;
+ }
+
+ #BirthdayBlock5 .BirthdayBlock5_image_2,
+ #BirthdayBlock5 .BirthdayBlock5_image_7 {
+    height: 350px;
+    width: 210px;
+    border-radius: 5px;
+ }
+
+ #BirthdayBlock5 .BirthdayBlock5_image_6,
+ #BirthdayBlock5 .BirthdayBlock5_image_8 {
+    height: 350px;
+    width: 540px;
+    border-radius: 5px;
+ }
+
+
+ #BirthdayBlock6 {
+    overflow: hidden;
+    margin: 25px 0;
+    padding: 50px 0 50px 0;
+    background: #FFC29E;
+}
+
+#BirthdayBlock6 .BirthdayBlock6_image {
+   height: 450px;
+   width: 100%;
+   border-radius: 5px;
+}
+
+#BirthdayBlock6 h2 {
+    font-size: 45px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 100px 0 40px 0;
+}
+
+#BirthdayBlock6 p {
     font-size: 18px;
     font-family: 'OpenSans-Regular',sans-serif;
     font-weight: 400;
     margin: 0 0 40px 0;
  }
 
- #BirthdayPage5 .BirthdayPage5_image_1,
- #BirthdayPage5 .BirthdayPage5_image_3 {
-    height: 350px;
-    width: 540px;
- }
+ #BirthdayBlock6 .btn-reserve-menu {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 5px 0 0 0;
 
- #BirthdayPage5 .BirthdayPage5_image_4,
- #BirthdayPage5 .BirthdayPage5_image_5 {
-    height: 400px;
-    width: 650px;
- }
+}
 
- #BirthdayPage5 .BirthdayPage5_image_2,
- #BirthdayPage5 .BirthdayPage5_image_7 {
-    height: 350px;
-    width: 210px;
- }
+#BirthdayBlock6 .btn-reserve-menu:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
 
- #BirthdayPage5 .BirthdayPage5_image_6,
- #BirthdayPage5 .BirthdayPage5_image_8 {
-    height: 350px;
-    width: 540px;
- }
-
-
- #BirthdayPage6 {
+#BirthdayBlock7 {
     overflow: hidden;
-    margin: 25px 0;
-    padding: 0 0 40px 0;
+    margin: 25px 0 0 0;
+    padding: 0 0 25px 0;
     background: #fff;
 }
+

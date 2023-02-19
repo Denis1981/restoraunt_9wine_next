@@ -126,7 +126,7 @@ const Footer = () => {
               <div className="modal-dialog modal-dialog-centered">
                 <div className="modal-content">
                   <div className="modal-header text-center">
-                      <h3 className="modal-title fs-5" id="exampleModalLabel">Введите свои данные и мы перезвоним вам в течение 10 минут</h3>
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Чтобы забронировать стол, введите свои данные, и мы перезвоним вам в течение 10 минут</h3>
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
                   </div>
                   <div className="modal-body">

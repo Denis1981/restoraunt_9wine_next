@@ -10,7 +10,7 @@ const MapYandex = () => {
   
      return (
          <>
-            <div className="map-block">
+            <div className="map-block z-depth-1">
                 <YMaps>
                   <Map defaultState={defaultState} width="100vw" height="600px">
                     <Placemark geometry={[59.935635, 30.335167]} />

@@ -186,7 +186,25 @@
     text-align: left;
 }
 
+#BirthdayBlock4 .btn-reserve-menu {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
 
+#BirthdayBlock4 .btn-reserve-menu:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
 
 #BirthdayBlock5 {
     overflow: hidden;
@@ -280,7 +298,6 @@
     font-family: 'OpenSans-Regular',sans-serif;
     font-weight: 400;
     margin: 5px 0 0 0;
-
 }
 
 #BirthdayBlock6 .btn-reserve-menu:hover {

@@ -42,6 +42,7 @@ class FormsReserveDegustation(models.Model):
     dateReserve = models.CharField(max_length=150, verbose_name='Желаемая дата')
     timeReserve = models.CharField(max_length=150, verbose_name='Желаемое время')
     quantity = models.CharField(max_length=150, verbose_name='Количество гостей')
+    note = models.CharField(max_length=150, verbose_name='Примечание к заказу')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата заказа')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Дата обновления заказа')
 
@@ -61,6 +62,7 @@ class FormsReserveHappy(models.Model):
     dateReserve = models.CharField(max_length=150, verbose_name='Желаемая дата')
     timeReserve = models.CharField(max_length=150, verbose_name='Желаемое время')
     quantity = models.CharField(max_length=150, verbose_name='Количество гостей')
+    note = models.CharField(max_length=150, verbose_name='Примечание к заказу')
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Дата заказа')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Дата обновления заказа')
 

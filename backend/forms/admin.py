@@ -45,11 +45,11 @@ class FormsReserveDegustationAdminForm(forms.ModelForm):
 class FormsReserveDegustationAdmin(admin.ModelAdmin):
 
     form = FormsReserveDegustationAdminForm
-    list_display = ('id', 'title', 'phone', 'dateReserve', 'timeReserve', 'quantity')
+    list_display = ('id', 'title', 'phone', 'dateReserve', 'timeReserve', 'quantity', 'note')
     list_display_links = ('id', 'title')
     readonly_fields = ('created_at', 'updated_at')
     search_fields = ('title',)
-    fields = ('title', 'phone', 'dateReserve', 'timeReserve', 'quantity')
+    fields = ('title', 'phone', 'dateReserve', 'timeReserve', 'quantity', 'note')
     save_as = True
     save_on_top = True
 
@@ -62,11 +62,11 @@ class FormsReserveHappyAdminForm(forms.ModelForm):
 class FormsReserveHappyAdmin(admin.ModelAdmin):
 
     form = FormsReserveHappyAdminForm
-    list_display = ('id', 'title', 'phone', 'dateReserve', 'timeReserve', 'quantity')
+    list_display = ('id', 'title', 'phone', 'dateReserve', 'timeReserve', 'quantity', 'note')
     list_display_links = ('id', 'title')
     readonly_fields = ('created_at', 'updated_at')
     search_fields = ('title',)
-    fields = ('title', 'phone', 'dateReserve', 'timeReserve', 'quantity')
+    fields = ('title', 'phone', 'dateReserve', 'timeReserve', 'quantity', 'note')
     save_as = True
     save_on_top = True
 

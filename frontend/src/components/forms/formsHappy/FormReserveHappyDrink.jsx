@@ -1,10 +1,9 @@
 import {useState} from "react";
 import Link from 'next/link'
 import axios from "axios";
-import {API_URL_CREATE_HAPPY} from '../../api/constant';
+import {API_URL_CREATE_HAPPY} from '../../../api/constant';
 
-
-const FormsReserveHappy = () => {
+const FormsReserveHappyDrink = () => {
 
     const [data, setData] = useState({
               title: "",
@@ -32,7 +31,8 @@ const FormsReserveHappy = () => {
               dateReserve: data.dateReserve,
               timeReserve: data.timeReserve,
               quantity: data.quantity,
-              comment: data.comment
+              comment: data.comment,
+              note: "интересуются напитками мира"
           }
         });
     };
@@ -70,4 +70,4 @@ const FormsReserveHappy = () => {
     </>);
 }
 
-export default FormsReserveHappy;
+export default FormsReserveHappyDrink;

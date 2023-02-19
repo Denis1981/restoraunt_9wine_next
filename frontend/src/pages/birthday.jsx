@@ -112,7 +112,7 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya1_title}</h3>
                         <p>{birth.akciya1_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">забронировать</button>
+                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalMusic">забронировать</button>
                     </div>
                     <div className="col-xxl-4">
                         <Image 
@@ -123,7 +123,7 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya2_title}</h3>
                         <p>{birth.akciya2_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">забронировать</button>
+                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalDrink">забронировать</button>
                     </div>
                     <div className="col-xxl-4">
                         <Image 
@@ -134,7 +134,7 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya3_title}</h3>
                         <p>{birth.akciya3_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">забронировать</button>
+                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalPhotograph">забронировать</button>
                     </div>
                 </div>
                  ))
@@ -161,6 +161,7 @@ const Birthday = ({ birth, seoData }) => {
                             <p class="card-text quota">{birth.happy_package_quota}</p>
                             <p class="card-text price">{birth.happy_package_price} <span>&#8381;</span></p>
                             <div dangerouslySetInnerHTML={{ __html: birth.happy_package }}/>
+                            <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalPackage">забронировать</button>
                         </div>
                         </div>
                     </div>

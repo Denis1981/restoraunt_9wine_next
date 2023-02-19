@@ -7,7 +7,11 @@ import Image from 'next/image'
 import FormsReserve from '../../components/forms/FormsReserve';
 import FormsCall from '../../components/forms/FormsCall';
 import FormsReserveDegustation from '../../components/forms/FormReserveDegustation';
-import FormsReserveHappy from '../../components/forms/FormReserveHappy';
+import FormsReserveHappy from '../../components/forms/formsHappy/FormReserveHappy';
+import FormsReserveHappyMusic from '../../components/forms/formsHappy/FormReserveHappyMusic';
+import FormsReserveHappyDrink from '../../components/forms/formsHappy/FormReserveHappyDrink';
+import FormsReserveHappyPhotograph from '../../components/forms/formsHappy/FormReserveHappyPhotograph';
+import FormsReserveHappyPackage from '../../components/forms/formsHappy/FormReserveHappyPackage';
 
 const Footer = () => {
 
@@ -136,6 +140,61 @@ const Footer = () => {
               </div>
             </div>
 
+            <div className="modal fade" id="happyModalMusic" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Чтобы забронировать стол, введите свои данные, и мы перезвоним вам в течение 10 минут</h3>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                  </div>
+                  <div className="modal-body">
+                     <FormsReserveHappyMusic />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal fade" id="happyModalDrink" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Чтобы забронировать стол, введите свои данные, и мы перезвоним вам в течение 10 минут</h3>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                  </div>
+                  <div className="modal-body">
+                     <FormsReserveHappyDrink />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal fade" id="happyModalPhotograph" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Чтобы забронировать стол, введите свои данные, и мы перезвоним вам в течение 10 минут</h3>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                  </div>
+                  <div className="modal-body">
+                     <FormsReserveHappyPhotograph />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal fade" id="happyModalPackage" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header text-center">
+                      <h3 className="modal-title fs-5" id="exampleModalLabel">Чтобы забронировать стол, введите свои данные, и мы перезвоним вам в течение 10 минут</h3>
+                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                  </div>
+                  <div className="modal-body">
+                     <FormsReserveHappyPackage />
+                  </div>
+                </div>
+              </div>
+            </div>
         </>
     )
 }

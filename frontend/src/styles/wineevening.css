@@ -1,0 +1,120 @@
+/**
+* DegustationPage
+ **/
+
+ #DegustationBlock1 {
+    overflow: hidden;
+    margin: 75px 0 0 0;
+    padding: 50px 0 50px 0;
+    background: url('../../public/wineevening1.webp') no-repeat;
+    height: 760px;
+}
+
+#DegustationBlock1 h1 {
+    font-size: 38px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 600;
+    margin: 50px 0 40px 0;
+    color: #fff;
+ }
+
+ #DegustationBlock1 h3 {
+    font-size: 26px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 400;
+    margin: 80px 0 40px 0;
+    color: #fff;
+    line-height: 40px;
+ }
+ 
+ #DegustationBlock1 p {
+    font-size: 22px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin: 20px 0;
+ }
+
+ #DegustationBlock1 p.content {
+    font-size: 20px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    color: #fff;
+ }
+
+#DegustationBlock1 .btn-reserve-menu {
+    width: 280px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    background: #AB0508;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+    opacity: .9;
+}
+
+#DegustationBlock1 .btn-reserve-menu:hover {
+    transition: all .5s;
+    opacity: 1;
+}
+
+#DegustationBlock2 {
+    overflow: hidden;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+#DegustationBlock2 h2 {
+    font-size: 30px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+    color: #000;
+    line-height: 50px;
+ }
+ 
+ #DegustationBlock2 p {
+    font-size: 18px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    color: #000;
+    margin: 40px 0;
+ }
+
+ #DegustationBlock2 .btn-reserve-menu {
+    width: 250px;
+    height: 50px;
+    border: 2px solid #AB0508;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular',sans-serif;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+
+#DegustationBlock2 .btn-reserve-menu:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+}
+
+ #DegustationBlock2 .DegustationBlock2_image{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+ }
+
+
+#DegustationBlock3 {
+    overflow: hidden;
+    margin: 25px 0 0 0;
+    padding: 0 0 25px 0;
+    background: #fff;
+}

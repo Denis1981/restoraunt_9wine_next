@@ -50,7 +50,7 @@ const Birthday = ({ birth, seoData }) => {
                     {
                     birth.map((birth, i) => (
                         <div key={birth.id}>
-                            <h1>Отметь день рождения в центре Санкт-Петербурга</h1>
+                            <h1>Отметьте день рождения в центре Санкт-Петербурга</h1>
                             <p>Отпразднуй день рождения «под ключ» с напитками и едой</p>
                             <p className="BirthdayBlock1__price">{birth.price} рублей</p>
                             <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">запланировать праздник</button>

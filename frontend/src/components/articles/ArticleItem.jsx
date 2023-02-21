@@ -4,7 +4,7 @@ const ArticleItem = ({ id, title, photo, alt }) => {
 
     return (
         <>
-                <div className="col-xxl-4" key={id}>
+                <div className="col-xxl-4 col-md-6" key={id}>
                     <div className="card">
                         <img 
                             src={photo}

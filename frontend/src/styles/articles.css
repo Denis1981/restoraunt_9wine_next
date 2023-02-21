@@ -35,7 +35,8 @@
 
 #ArticlesPage .card {
     min-height: 450px;
-    margin: 12px 0;
+    margin: 5px -8px;
+    padding: 0 0 !important;
     border: none !important;
 }
 
@@ -74,32 +75,92 @@
 
 @media (max-width: 575px){
 
-		
+    #ArticlesPage {
+        margin: 50px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #ArticlesPage h1 {
+       font-size: 28px;
+       margin: 40px 0 40px 0;
+    }
+    
+    #ArticlesPage h2 {
+       font-size: 20px;
+       margin: 0 0 40px 0;
+    }
+    
+    #ArticlesPage .card {
+        min-height: 450px;
+        margin: 5px -8px;
+        padding: 0 0 !important;
+    }
+    
+    #ArticlesPage .card-img-top {
+        width: 100%;
+        height: 100%;
+    }
+    
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) { 
 
+    #ArticlesPage {
+        margin: 50px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #ArticlesPage h1 {
+       font-size: 28px;
+       margin: 40px 0 40px 0;
+    }
+    
+    #ArticlesPage h2 {
+       font-size: 20px;
+       margin: 0 0 40px 0;
+    }
+    
+    #ArticlesPage .card {
+        min-height: 450px;
+        margin: 5px -8px;
+        padding: 0 0 !important;
+    }
+    
+    #ArticlesPage .card-img-top {
+        width: 100%;
+        height: 100%;
+    }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
+    #ArticlesPage {
+        margin: 50px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #ArticlesPage h1 {
+       font-size: 34px;
+       margin: 40px 0 40px 0;
+    }
+    
+    #ArticlesPage h2 {
+       font-size: 20px;
+       margin: 0 0 40px 0;
+    }
+    
+    #ArticlesPage .card {
+        min-height: 450px;
+        margin: 5px -8px;
+        padding: 0 0 !important;
+    }
+    
+    #ArticlesPage .card-img-top {
+        width: 100%;
+        height: 100%;
+    }
 
 }
 
-@media (min-width: 993px) and (max-width: 1200px) { 
-
-
-}
-
-
-@media (min-width: 1201px) and (max-width: 1400px) { 
-
-
-}
-
-@media (min-width: 1401px) and (max-width: 2500px) { 
-
-
-}

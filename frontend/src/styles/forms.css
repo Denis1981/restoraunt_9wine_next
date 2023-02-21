@@ -35,3 +35,35 @@
     font-weight: 400;
     font-size: 12px;
 }
+
+@media (max-width: 575px){
+
+		
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) { 
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+
+
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px) { 
+
+
+}
+
+@media (min-width: 1401px) and (max-width: 2500px) { 
+
+
+}

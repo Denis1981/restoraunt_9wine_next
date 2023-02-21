@@ -8,7 +8,6 @@
     width: 100%;
     height: 964px;
     margin-top: 0;
-    /*border: 10px solid #FF8700;*/
 }
 
 #HomePage h1 {
@@ -98,5 +97,124 @@
     padding: 0 10px;
 }
 
+@media (max-width: 575px){
 
+    #HomePage {
+        height: 100vh;
+    }
+    
+    #HomePage h1 {
+        font-size: 18px;
+    }
+    
+    #HomePage .HomePage__logoMain {
+        height:100px;
+        margin: 120px auto 0 auto;
+    }
+    
+    #HomePage .HomePage__headerUnderLogo {
+        width: 100%;
+        height: 40px;
+        margin: 20px auto 0 auto;   
+    }
+    
+    #HomePage a.HomePage__btn-reserve {
+        font-size: 18px;
+        line-height: 55px;
+    }
+    
+    #HomePage .HomePage__btn-reserve {
+        width: 250px;
+        height: 70px;
+        margin: 50px 0 0 0;
+        font-size: 18px !important;
+    }
+    
+    #HomePage a.HomePage__btn-reserve:hover {
+       line-height: 55px;
+    }
+    
+    #HomePage .HomePage__menu-block {
+        margin: 50px 0;
+    }
+    
+    #HomePage .HomePage__menu-block ul li{
+        display: block;
+        padding: 5px 0;
+    }
+    
+    #HomePage .HomePage__menu-block ul li a {
+        font-size: 18px;
+    }
+    
+    #HomePage .HomePage__social-block {
+        margin: 20px 0;
+    }
+     
+    #HomePage .HomePage__social-block ul li{
+        display: inline-block;
+        padding: 0 10px;
+    }
+		
+}
 
+@media (min-width: 576px) and (max-width: 767px) { 
+
+    #HomePage {
+        height: 100vh;
+    }
+    
+    #HomePage h1 {
+        font-size: 18px;
+    }
+    
+    #HomePage .HomePage__logoMain {
+        height:100px;
+        margin: 120px auto 0 auto;
+    }
+    
+    #HomePage .HomePage__headerUnderLogo {
+        width: 100%;
+        height: 40px;
+        margin: 20px auto 0 auto;   
+    }
+    
+    #HomePage a.HomePage__btn-reserve {
+        font-size: 18px;
+        line-height: 55px;
+    }
+    
+    #HomePage .HomePage__btn-reserve {
+        width: 250px;
+        height: 70px;
+        margin: 50px 0 0 0;
+        font-size: 18px !important;
+    }
+    
+    #HomePage a.HomePage__btn-reserve:hover {
+       line-height: 55px;
+    }
+    
+    #HomePage .HomePage__menu-block {
+        margin: 50px 0;
+    }
+    
+    #HomePage .HomePage__menu-block ul li{
+        display: block;
+        padding: 5px 0;
+    }
+    
+    #HomePage .HomePage__menu-block ul li a {
+        font-size: 18px;
+    }
+    
+    #HomePage .HomePage__social-block {
+        margin: 20px 0;
+    }
+     
+    #HomePage .HomePage__social-block ul li{
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+}

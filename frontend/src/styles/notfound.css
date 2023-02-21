@@ -1,0 +1,21 @@
+/**
+* NotfoundPage
+ **/
+
+ #Notfound {
+    overflow: hidden;
+    margin: 75px 0 0 0;
+    padding: 0 0 40px 0;
+    background: #fff;
+}
+
+#Notfound img {
+    margin: 65px 0 65px 0;
+}
+
+#Notfound p {
+    font-size: 28px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+ }

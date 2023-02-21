@@ -18,6 +18,7 @@ import '../styles/gallery.css';
 import '../styles/contacts.css';
 import '../styles/polytics.css';
 import '../styles/footer.css';
+import '../styles/notfound.css';
 import '../styles/map.css';
 import '../styles/forms.css';
 

@@ -1,8 +1,8 @@
 import {useState} from "react";
 import Link from 'next/link'
 import axios from "axios";
+import InputMask from 'react-input-mask';
 import {API_URL_CREATE_CALL} from '../../api/constant';
-
 
 const FormsCall = () => {
 
@@ -36,7 +36,7 @@ const FormsCall = () => {
                         <input type="text" className="form-control" id="title" name="title" onChange={handleChange} placeholder="Ваше имя" value={data.title} required="required"/>
                     </div>
                     <div className="col-xxl-12 mb-3">
-                        <input type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
+                        <InputMask mask="+7\ 999 999 9999" type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
                     </div>
                     <div className="text-center">
                     <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a>политики конфиденциальности</a></Link></p>

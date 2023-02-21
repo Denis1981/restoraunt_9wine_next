@@ -27,7 +27,6 @@ const Footer = () => {
         getContacts()
     }, []);
 
-
     return (
         <>
             <section id="footer-block" className="z-depth-1">

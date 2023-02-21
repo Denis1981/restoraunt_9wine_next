@@ -1,4 +1,5 @@
 import {useState} from "react";
+import InputMask from 'react-input-mask';
 import Link from 'next/link'
 import axios from "axios";
 import {API_URL_CREATE_DEGUSTATION} from '../../api/constant';
@@ -23,7 +24,6 @@ const FormsReserveDegustation = () => {
     };
 
     const handleSubmit = (e) => {
-        //e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_DEGUSTATION,
@@ -36,7 +36,6 @@ const FormsReserveDegustation = () => {
               comment: data.comment
           }
         });
-        // console.log(data)
     };
 
     return (<>
@@ -46,7 +45,7 @@ const FormsReserveDegustation = () => {
                         <input type="text" className="form-control" id="title" name="title" onChange={handleChange} placeholder="Ваше имя" value={data.title} required="required"/>
                     </div>
                     <div className="col-xxl-6 mb-3">
-                        <input type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
+                        <InputMask mask="+7\ 999 999 9999" type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
                     </div>
                     <div className="col-xxl-4 mb-3">
                         <label className="form-label">Выберете дату</label>

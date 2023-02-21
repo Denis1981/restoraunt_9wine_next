@@ -61,11 +61,13 @@
   /*
   модальное окно
   */
-  .modal {
   
+  .btn-close {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
   }
 
- 
   .modal img{
       width: 100%;
   }

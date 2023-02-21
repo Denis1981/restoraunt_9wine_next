@@ -45,7 +45,7 @@ const Degustation = ({ deg, seoData, contacts }) => {
                     <div className="col-xxl-6">
                         <h1>Дегустационный винный вечер</h1>
                         <h3>Дегустация великолепных вин и вкуснейших блюд в сопровождении профессионального сомелье в винном баре 9WINES в центре Санкт-Петербурга</h3>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">забронировать место</button>
+                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#degustationModal">забронировать место</button>
                     </div>
                 </div>
                 <div className="row">

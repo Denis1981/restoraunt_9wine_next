@@ -7,7 +7,6 @@ import FormsReserve from '../components/forms/FormsReserve';
 import Image from 'next/image';
 import { logoMain, headerUnderLogo, vk, tg} from "../../public";
 
-
 export default function Index({ seoData }) {
 
   const [contacts, setContacts]=useState([]);

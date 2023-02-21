@@ -1,11 +1,11 @@
-import Image from 'next/image'
+
 import MainLayout from '../components/base/MainLayout'
 import Navbar from '../components/base/Navbar'
 import Footer from '../components/base/Footer'
+import ReviewItem from '../components/reviews/ReviewItem'
 import { API_URL_SEO, API_URL_REVIEWS } from '../api/constant';
 
 const Reviews = ({ reviews, seoData }) => {
-
     
     return (
         <>
@@ -42,23 +42,7 @@ const Reviews = ({ reviews, seoData }) => {
                 </div>
                 <div className="row">
                 {reviews.map((review) => (
-                    <div className="card mb-3" key={review.id}>
-                        <div className="row">
-                            <div className="col-xxl-4">
-                                <img 
-                                    src={review.photo} 
-                                    className="reviews__photo z-depth-1" 
-                                />
-                            </div>
-                            <div className="col-xxl-8">
-                                <div className="card-body border-radius: 10px;">
-                                      <h3 className="card-title">{review.title}</h3>
-                                      <div className="card-text" dangerouslySetInnerHTML={{ __html: review.content.slice(0,600) }}/>
-                                      <p className="card-text"><small className="text-muted">{review.dateReview}</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <ReviewItem id={review.id} title={review.title} photo={review.photo} content={review.content} dateReview={review.dateReview}/>
                 ))
                 }
                 </div>

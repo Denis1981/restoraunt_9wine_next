@@ -64,6 +64,7 @@ const Birthday = ({ birth, seoData }) => {
                             alt="" 
                             title="" 
                             className="BirthdayBlock1_image z-depth-1" 
+                            priority
                         />
                     </div>
                 </div>
@@ -154,12 +155,12 @@ const Birthday = ({ birth, seoData }) => {
                 <div className="row" key={birth.id}>
                     <div className="col-xxl-12 text-center">
                         <div className="card z-depth-1">
-                        <div class="card-body">
+                        <div className="card-body">
                             <div className="card-body-h3 z-depth-1">
-                                <h3 class="card-title">Праздничный пакет <br /> "День рождения"</h3>
+                                <h3 className="card-title">Праздничный пакет <br /> "День рождения"</h3>
                             </div>
-                            <p class="card-text quota">{birth.happy_package_quota}</p>
-                            <p class="card-text price">{birth.happy_package_price} <span>&#8381;</span></p>
+                            <p className="card-text quota">{birth.happy_package_quota}</p>
+                            <p className="card-text price">{birth.happy_package_price} <span>&#8381;</span></p>
                             <div dangerouslySetInnerHTML={{ __html: birth.happy_package }}/>
                             <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalPackage">забронировать</button>
                         </div>

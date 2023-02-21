@@ -1,7 +1,5 @@
 import {useState} from "react";
 import { Image } from 'antd';
-import {imageData} from '../../constants/data';
-
 
 const ImageGalleryMenus = () => {
 
@@ -14,7 +12,7 @@ const ImageGalleryMenus = () => {
                       visible: false,
                     }}
 
-                    src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
+                    src="/menus_main.webp"
                     onClick={() => setVisible(true)}
                   />
                   <div
@@ -28,9 +26,33 @@ const ImageGalleryMenus = () => {
                         onVisibleChange: (vis) => setVisible(vis),
                       }}
                   >
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp" />
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp" />
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp" />
+                      <Image src="/menus1.webp" />
+                      <Image src="/menus2.webp" />
+                      <Image src="/menus3.webp" />
+                      <Image src="/menus4.webp" />
+                      <Image src="/menus5.webp" />
+                      <Image src="/menus6.webp" />
+                      <Image src="/menus7.webp" />
+                      <Image src="/menus8.webp" />
+                      <Image src="/menus9.webp" />
+                      <Image src="/menus10.webp" />
+                      <Image src="/menus11.webp" />
+                      <Image src="/menus12.webp" />
+                      <Image src="/menus13.webp" />
+                      <Image src="/menus14.webp" />
+                      <Image src="/menus15.webp" />
+                      <Image src="/menus16.webp" />
+                      <Image src="/menus17.webp" />
+                      <Image src="/menus18.webp" />
+                      <Image src="/menus19.webp" />
+                      <Image src="/menus20.webp" />
+                      <Image src="/menus21.webp" />
+                      <Image src="/menus22.webp" />
+                      <Image src="/menus23.webp" />
+                      <Image src="/menus24.webp" />
+                      <Image src="/menus25.webp" />
+
+                      
                   </Image.PreviewGroup>
             </div>
         </>);

@@ -1,6 +1,5 @@
 import {useState} from "react";
 import { Image } from 'antd';
-import {imageData} from '../../constants/data';
 
 const ImageGalleryInterior = () => {
 
@@ -13,7 +12,7 @@ const ImageGalleryInterior = () => {
                       visible: false,
                     }}
 
-                    src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
+                    src="/interior.webp"
                     onClick={() => setVisible(true)}
                   />
                   <div
@@ -27,9 +26,15 @@ const ImageGalleryInterior = () => {
                         onVisibleChange: (vis) => setVisible(vis),
                       }}
                   >
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp" />
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp" />
-                      <Image src="https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp" />
+                      <Image src="/interior1.webp" />
+                      <Image src="/interior2.webp" />
+                      <Image src="/interior3.webp" />
+                      <Image src="/interior4.webp" />
+                      <Image src="/interior5.webp" />
+                      <Image src="/interior6.webp" />
+                      <Image src="/interior7.webp" />
+                      <Image src="/interior8.webp" />
+                      <Image src="/interior9.webp" />
                   </Image.PreviewGroup>
             </div>
         </>);

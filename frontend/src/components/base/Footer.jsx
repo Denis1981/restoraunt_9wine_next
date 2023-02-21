@@ -51,8 +51,8 @@ const Footer = () => {
                         </div>
                     ))
                     }
-                        <div className="col-xxl-2">
-                            <div className="footer-block__text">
+                        <div className="col-xxl-2 col-xl-4 col-md-6">
+                            <div className="footer-block__text one">
                                 <p><Link href="/" legacyBehavior><a>Главная</a></Link></p>
                                 <p><Link href="/about" legacyBehavior><a>О нас</a></Link></p>
                                 <p><Link href="/menu" legacyBehavior><a>Меню ресторана</a></Link></p>
@@ -60,8 +60,8 @@ const Footer = () => {
                                 <p><Link href="/articles" legacyBehavior><a>Блог</a></Link></p>
                             </div>
                         </div>
-                        <div className="col-xxl-3">
-                            <div className="footer-block__text">
+                        <div className="col-xxl-3 col-xl-4 col-md-6">
+                            <div className="footer-block__text two">
                                 <p><b>Мероприятия</b></p>
                                 <p><Link href="/confirm" legacyBehavior><a>Дегустационный винный вечер</a></Link></p>
                                 <p><Link href="/birthday" legacyBehavior><a>Винный день рождения</a></Link></p>
@@ -69,8 +69,8 @@ const Footer = () => {
                                 <p><Link href="/gallery" legacyBehavior><a>Галерея</a></Link></p>
                             </div>
                         </div>
-                        <div className="col-xxl-3">
-                            <div className="footer-block__text">
+                        <div className="col-xxl-3 col-xl-4 col-md-12">
+                            <div className="footer-block__text three">
                                 <p><Link href="/contacts" legacyBehavior><a>Контакты</a></Link></p>
                                 <p><Link href="/polytics" legacyBehavior><a>Политика конфиденциальности</a></Link></p>
                                 <p>

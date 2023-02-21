@@ -36,7 +36,7 @@ const Contacts = ({ contacts, seoData }) => {
         <section id="ContactsPage">
             <div className="container">
                 <div className="row">
-                    <div className="col-xxl-5 col-xl-4 col-lg-6">
+                    <div className="col-xxl-5 col-xl-6 col-lg-6">
                             {
                             contacts.map((contacts, i) => (
                                 <div key={contacts.id}>
@@ -74,7 +74,7 @@ const Contacts = ({ contacts, seoData }) => {
                             ))
                         }
                     </div>
-                    <div className="col-xxl-7 col-xl-8 col-lg-6">
+                    <div className="col-xxl-7 col-xl-6 col-lg-6">
                         <Map />
                     </div>
                 </div>

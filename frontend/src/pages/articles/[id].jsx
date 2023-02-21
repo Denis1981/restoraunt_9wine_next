@@ -47,8 +47,8 @@ const Article = ({articles }) => {
                     <div className="col-xxl-12">
                         {articles && (
                         <>
-                            <div className="ArticlePage__text-content-article" dangerouslySetInnerHTML={{ __html: articles.content }}/>
-                            <button className="btn btn_ArticlePage__goback" onClick={() => Router.push('/articles') }>назад</button>
+                            <div className="text-content-article" dangerouslySetInnerHTML={{ __html: articles.content }}/>
+                            <button className="btn btn_goback" onClick={() => Router.push('/articles') }>назад</button>
                         </>
                     )}
                     </div>

@@ -1,5 +1,5 @@
 import {useState} from "react";
-import InputMask from 'react-input-mask';
+import { PatternFormat } from 'react-number-format';
 import Link from 'next/link'
 import axios from "axios";
 import {API_URL_CREATE_HAPPY} from '../../../api/constant';
@@ -45,7 +45,7 @@ const FormsReserveHappyDrink = () => {
                         <input type="text" className="form-control" id="title" name="title" onChange={handleChange} placeholder="Ваше имя" value={data.title} required="required"/>
                     </div>
                     <div className="col-xxl-6 mb-3">
-                        <InputMask mask="+7\ 999 999 9999" type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} placeholder="Ваш телефон" value={data.phone} required="required"/>
+                    <PatternFormat format="+7 (###) ### ####" allowEmptyFormatting mask="_" type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} value={data.phone} required="required"/>
                     </div>
                     <div className="col-xxl-4 mb-3">
                         <label className="form-label">Выберете дату</label>

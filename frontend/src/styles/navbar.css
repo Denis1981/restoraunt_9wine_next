@@ -70,7 +70,7 @@
 * adaptive classes navbar-pc, navbar-mobile
 */
 
-   @media (min-width: 200px) and (max-width: 1360px) {
+@media (min-width: 200px) and (max-width: 1360px) {
     .navbar-pc {
         display: none !important;
     }

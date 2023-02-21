@@ -88,7 +88,7 @@ const Celebrates = ({ seoData }) => {
                                 title=""
                             />
                             <h2>
-                                <Link href="/wineevening" legacyBehavior>
+                                <Link href="/confirm" legacyBehavior>
                                     <a>Дегустационный винный вечер</a>
                                 </Link>
                             </h2>

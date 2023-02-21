@@ -11,6 +11,7 @@ import { API_URL_DEGUSTATION, API_URL_SEO, API_URL_CONTACTS } from '../api/const
 
 const Degustation = ({ deg, seoData, contacts }) => {
 
+    
     return (
         <>
         {

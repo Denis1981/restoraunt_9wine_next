@@ -64,7 +64,7 @@ const Footer = () => {
                         <div className="col-xxl-3">
                             <div className="footer-block__text">
                                 <p><b>Мероприятия</b></p>
-                                <p><Link href="/wineevening" legacyBehavior><a>Дегустационный винный вечер</a></Link></p>
+                                <p><Link href="/confirm" legacyBehavior><a>Дегустационный винный вечер</a></Link></p>
                                 <p><Link href="/birthday" legacyBehavior><a>Винный день рождения</a></Link></p>
                                 <p><Link href="/nightclub" legacyBehavior><a>Ночной клуб</a></Link></p>
                                 <p><Link href="/gallery" legacyBehavior><a>Галерея</a></Link></p>

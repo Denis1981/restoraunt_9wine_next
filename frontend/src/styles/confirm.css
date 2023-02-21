@@ -1,0 +1,73 @@
+/**
+* ConfirmPage
+ **/
+
+ #Confirm {
+    overflow: hidden;
+    margin: 75px 0 0 0;
+    padding: 0 0 80px 0;
+    background: #fff;
+}
+
+#Confirm img {
+    margin: 50px 0 50px 0;
+}
+
+#Confirm h2 {
+    font-size: 28px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 400;
+    margin: 20px 0 40px 0;
+ }
+
+#Confirm p {
+    font-size: 18px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+ }
+
+ #Confirm .btn-no {
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 45px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 30px auto 0 auto;
+    border: 2px solid #AB0508;
+ }
+
+ #Confirm .btn-done {
+    display: block;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 45px;
+    font-family: 'OpenSans-Bold',sans-serif;
+    font-weight: 800;
+    margin: 30px auto 0 auto;
+    border: 2px solid #AB0508;
+    background: #AB0508 !important;
+ }
+ 
+ #Confirm .btn-no:hover {
+    transition: all .5s;
+    background: #AB0508 !important;
+    border: none;
+    color: #fff;
+ }
+
+ #Confirm .btn-done:hover {
+    transition: all .5s;
+    background: #fff !important;
+    border: 2px solid #AB0508;
+    color: #000;
+ }

@@ -13,6 +13,7 @@ import '../styles/celebrates.css';
 import '../styles/reviews.css';
 import '../styles/nightclub.css';
 import '../styles/wineevening.css';
+import '../styles/confirm.css';
 import '../styles/birthday.css';
 import '../styles/gallery.css';
 import '../styles/contacts.css';

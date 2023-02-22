@@ -10,14 +10,13 @@
 }
 
 #AboutUs h1 {
-   font-size: 38px;
    font-family: 'OpenSans-Light',sans-serif;
    font-weight: 600;
    margin: 180px 0 40px 0;
 }
 
 #AboutUs p {
-   font-size: 18px;
+   font-size: 20px;
    font-family: 'OpenSans-Regular',sans-serif;
 }
 
@@ -25,6 +24,7 @@
    width: 100%;
    height: 500px;
    margin: 20px 0 0 0;
+   border-radius: 5px;
 }
 
 #AboutUs .AboutUs_image2 {
@@ -108,16 +108,14 @@
 
 #aboutBlock {
    overflow: hidden;
-   padding: 40px 0;
-   /*background: url('./../../assets/background.webp');*/
-    background: #fff;
+   padding: 40px 0 20px 0;
+   background: #fff;
 }
 
 #aboutBlock h2 {
-   font-size: 45px;
    font-family: 'OpenSans-Bold',sans-serif;
    font-weight: 800;
-   margin: 0 0 40px 0;
+   margin: 20px 0 40px 0;
    text-transform: uppercase;
 }
 
@@ -151,12 +149,10 @@
 #karaokeBlock {
    overflow: hidden;
    padding: 0 0 80px 0;
-   /*background: url('./../../assets/background.webp');*/
-    background: #fff;
+   background: #fff;
 }
 
 #karaokeBlock h2 {
-   font-size: 45px;
    font-family: 'OpenSans-Bold',sans-serif;
    font-weight: 800;
    margin: 0 0 60px 0;
@@ -194,37 +190,536 @@
    color: #fff;
 }
 
+#karaokeBlock .for-mob {
+   display: none;
+}
+
 
 
 
 @media (max-width: 575px){
 
-		
+   #AboutUs {
+      margin: 55px 0 0 0;
+      padding: 0 0 10px 0;
+  }
+  
+  #AboutUs h1 {
+     margin: 20px 0 40px 0;
+  }
+  
+  #AboutUs .AboutUs_image1 {
+     height: 350px;
+     margin: 20px 0 0 0;
+     border-radius: 5px;
+  }
+  
+  #AboutUs .AboutUs_image2 {
+     height: 350px;
+     border-radius: 5px;
+     margin: 10px 0 20px 0;
+  }
+  
+  #special {
+      padding: 20px 0;
+      margin: 0 0;
+  }
+  
+  #special h2 {
+     font-size: 35px;
+     margin: 0 0 20px 0;
+     text-align: center;
+  }
+  
+  #special p {
+     font-size: 22px;
+     margin: 0 0 20px 0;
+  }
+  
+  #special .special__special_image1 {
+     height: auto;
+  }
+  
+  #special .special__btn-more {
+     margin: 10px 0 30px 0;
+  }
+
+  #aboutBlock {
+     padding: 20px 0;
+  }
+  
+  #aboutBlock h2 {
+     margin: 20px 0 20px 0;
+  }
+  
+  #aboutBlock p {
+     line-height: 30px;
+     height: 70px;
+  }
+  
+  #aboutBlock .aboutBlock__image {
+     padding: 2px 2px;
+     height: 400px;
+     margin: 0 0 20px 0;
+  }
+  
+  #aboutBlock .image1 {
+     border-radius: 5px;
+     height: 350px;
+  }
+
+   #aboutBlock .image2 {
+      border-radius: 5px;
+      height: 350px;
+   }
+  
+  #aboutBlock .image3 {
+   border-radius: 5px;
+   height: 350px;
+  }
+  
+  #karaokeBlock {
+     padding: 0 0 30px 0;
+  }
+  
+  #karaokeBlock h2 {
+     margin: 0 0 30px 0;
+  }
+  
+  #karaokeBlock .karaokeBlock__image{
+     height: 450px;
+  }
+  
+  #karaokeBlock .karaokeBlock__btn-more {
+     width: 200px;
+     height: 50px;
+     font-size: 14px;
+     margin: 30px 0 0 0;
+  }
+
+   #karaokeBlock .for-pc {
+      display: none;
+   }
+
+   #karaokeBlock .for-mob {
+      display: block;
+   }
+
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) { 
 
+   #AboutUs {
+      margin: 75px 0 0 0;
+      padding: 0 0 10px 0;
+  }
+  
+  #AboutUs h1 {
+     margin: 20px 0 40px 0;
+  }
+  
+  #AboutUs .AboutUs_image1 {
+     height: 400px;
+     margin: 20px 0 0 0;
+     border-radius: 5px;
+  }
+  
+  #AboutUs .AboutUs_image2 {
+     height: 400px;
+     border-radius: 5px;
+     margin: 10px 0 20px 0;
+  }
+  
+  #special {
+      padding: 20px 0;
+      margin: 0 0;
+  }
+  
+  #special h2 {
+     font-size: 45px;
+     margin: 0 0 20px 0;
+     text-align: center;
+  }
+  
+  #special p {
+     font-size: 28px;
+     margin: 0 0 20px 0;
+  }
+  
+  #special .special__special_image1 {
+     height: auto;
+  }
+  
+  #special .special__btn-more {
+     margin: 10px 0 30px 0;
+  }
+
+  #aboutBlock {
+     padding: 20px 0;
+  }
+  
+  #aboutBlock h2 {
+     margin: 20px 0 20px 0;
+  }
+  
+  #aboutBlock p {
+     line-height: 30px;
+     height: 70px;
+  }
+  
+  #aboutBlock .aboutBlock__image {
+     padding: 2px 2px;
+     height: 400px;
+     margin: 0 0 20px 0;
+  }
+  
+  #aboutBlock .image1 {
+     border-radius: 5px;
+  }
+
+   #aboutBlock .image2 {
+      border-radius: 5px;
+   }
+  
+  #aboutBlock .image3 {
+   border-radius: 5px;
+  }
+  
+  #karaokeBlock {
+     padding: 0 0 30px 0;
+  }
+  
+  #karaokeBlock h2 {
+     margin: 0 0 30px 0;
+  }
+  
+  #karaokeBlock .karaokeBlock__image{
+     height: 450px;
+  }
+  
+  #karaokeBlock .karaokeBlock__btn-more {
+     width: 200px;
+     height: 50px;
+     font-size: 14px;
+     margin: 30px 0 0 0;
+  }
+
+   #karaokeBlock .for-pc {
+      display: none;
+   }
+
+   #karaokeBlock .for-mob {
+      display: block;
+   }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
+   #AboutUs {
+      margin: 75px 0 0 0;
+      padding: 0 0 10px 0;
+  }
+  
+  #AboutUs h1 {
+     margin: 20px 0 40px 0;
+  }
+  
+  #AboutUs .AboutUs_image1 {
+     height: 500px;
+     margin: 20px 0 0 0;
+     border-radius: 5px;
+  }
+  
+  #AboutUs .AboutUs_image2 {
+     height: 500px;
+     border-radius: 5px;
+     margin: 10px 0 20px 0;
+  }
+  
+  #special {
+      padding: 20px 0;
+      margin: 0 0;
+  }
+  
+  #special h2 {
+     font-size: 45px;
+     margin: 0 0 20px 0;
+     text-align: center;
+  }
+  
+  #special p {
+     font-size: 28px;
+     margin: 0 0 20px 0;
+  }
+  
+  #special .special__special_image1 {
+     height: auto;
+  }
+  
+  #special .special__btn-more {
+     margin: 10px 0 30px 0;
+  }
+
+  #aboutBlock {
+     padding: 20px 0;
+  }
+  
+  #aboutBlock h2 {
+     margin: 20px 0 20px 0;
+  }
+  
+  #aboutBlock p {
+     line-height: 30px;
+     height: 70px;
+  }
+  
+  #aboutBlock .aboutBlock__image {
+     padding: 2px 2px;
+     height: 500px;
+     margin: 0 0 20px 0;
+  }
+  
+  #aboutBlock .image1 {
+     border-radius: 5px;
+  }
+
+   #aboutBlock .image2 {
+      border-radius: 5px;
+   }
+  
+  #aboutBlock .image3 {
+   border-radius: 5px;
+  }
+  
+  #karaokeBlock {
+     padding: 0 0 30px 0;
+  }
+  
+  #karaokeBlock h2 {
+     margin: 0 0 30px 0;
+  }
+  
+  #karaokeBlock .karaokeBlock__image{
+     height: 450px;
+  }
+  
+  #karaokeBlock .karaokeBlock__btn-more {
+     width: 200px;
+     height: 50px;
+     font-size: 14px;
+     margin: 30px 0 0 0;
+  }
+
+   #karaokeBlock .for-pc {
+      display: none;
+   }
+
+   #karaokeBlock .for-mob {
+      display: block;
+   }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) { 
 
+   #AboutUs {
+      margin: 75px 0 0 0;
+      padding: 0 0 10px 0;
+  }
+  
+  #AboutUs h1 {
+     margin: 20px 0 40px 0;
+  }
+  
+  #AboutUs .AboutUs_image1 {
+     height: 650px;
+     margin: 20px 0 0 0;
+     border-radius: 5px;
+  }
+  
+  #AboutUs .AboutUs_image2 {
+     height: 650px;
+     border-radius: 5px;
+     margin: 10px 0 20px 0;
+  }
+  
+  #special {
+      padding: 20px 0;
+      margin: 0 0;
+  }
+  
+  #special h2 {
+     font-size: 45px;
+     margin: 0 0 20px 0;
+     text-align: center;
+  }
+  
+  #special p {
+     font-size: 22px;
+     margin: 0 0 20px 0;
+  }
+  
+  #special .special__special_image1 {
+     height: auto;
+  }
+  
+  #special .special__btn-more {
+     margin: 25px 0 5px 0;
+  }
+
+  #aboutBlock {
+     padding: 20px 0;
+  }
+  
+  #aboutBlock h2 {
+     margin: 20px 0 20px 0;
+  }
+  
+  #aboutBlock p {
+     line-height: 30px;
+     height: 70px;
+  }
+  
+  #aboutBlock .aboutBlock__image {
+     padding: 2px 2px;
+     height: 500px;
+     margin: 0 0 20px 0;
+  }
+  
+  #aboutBlock .image1 {
+     border-radius: 5px;
+     height: auto;
+  }
+
+  #aboutBlock .image2 {
+   border-radius: 5px;
+   height: 400px;
+   }
+  
+  #aboutBlock .image3 {
+   border-radius: 5px;
+   height: 400px;
+  }
+  
+  #karaokeBlock {
+     padding: 0 0 30px 0;
+  }
+  
+  #karaokeBlock h2 {
+     margin: 0 0 30px 0;
+  }
+  
+  #karaokeBlock .karaokeBlock__image{
+     height: 450px;
+  }
+  
+  #karaokeBlock .karaokeBlock__btn-more {
+     width: 200px;
+     height: 50px;
+     font-size: 14px;
+     margin: 0 0 0 0;
+  }
 
 }
 
 
 @media (min-width: 1201px) and (max-width: 1400px) { 
 
+   #AboutUs {
+      margin: 75px 0 0 0;
+      padding: 0 0 30px 0;
+  }
+  
+  #AboutUs h1 {
+     margin: 20px 0 40px 0;
+  }
+  
+  #AboutUs .AboutUs_image1 {
+     margin: 20px 0 0 0;
+  }
+  
+  #AboutUs .AboutUs_image2 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #special {
+      padding: 20px 0;
+      margin: 0 0;
+  }
+  
+  #special h2 {
+     font-size: 45px;
+     margin: 0 0 20px 0;
+     text-align: center;
+  }
+  
+  #special p {
+     font-size: 22px;
+     margin: 0 0 20px 0;
+  }
+  
+  #special .special__special_image1 {
+     height: auto;
+  }
+  
+  #special .special__btn-more {
+     margin: 25px 0 5px 0;
+  }
+
+  #aboutBlock {
+     padding: 20px 0;
+  }
+  
+  #aboutBlock h2 {
+     margin: 20px 0 20px 0;
+  }
+  
+  #aboutBlock p {
+     line-height: 30px;
+     height: 70px;
+  }
+  
+  #aboutBlock .aboutBlock__image {
+     padding: 2px 2px;
+     height: 500px;
+     margin: 0 0 20px 0;
+  }
+  
+  #aboutBlock .image1 {
+     border-radius: 5px;
+     height: auto;
+  }
+
+  #aboutBlock .image2 {
+   border-radius: 5px;
+   height: 400px;
+}
+  
+  #aboutBlock .image3 {
+   border-radius: 5px;
+   height: 400px;
+  }
+  
+  #karaokeBlock {
+     padding: 0 0 30px 0;
+  }
+  
+  #karaokeBlock h2 {
+     margin: 0 0 30px 0;
+  }
+  
+  #karaokeBlock .karaokeBlock__image{
+     height: 450px;
+  }
+  
+  #karaokeBlock .karaokeBlock__btn-more {
+     width: 200px;
+     height: 50px;
+     font-size: 14px;
+     margin: 0 0 0 0;
+  }
 
 }
 
-@media (min-width: 1401px) and (max-width: 2500px) { 
-
-
-}

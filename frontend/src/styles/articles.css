@@ -10,15 +10,13 @@
 }
 
 #ArticlesPage h1 {
-   font-size: 38px;
    font-family: 'OpenSans-Light',sans-serif;
    font-weight: 600;
    margin: 40px 0 40px 0;
    text-transform: uppercase;
 }
 
-#ArticlesPage h2 {
-   font-size: 20px;
+#ArticlesPage h5 {
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
    margin: 0 0 40px 0;
@@ -47,6 +45,7 @@
 }
 
 #ArticlesPage .card p{
+   font-size: 18px;
    text-align: right;
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
@@ -69,36 +68,17 @@
     border-top-right-radius: 5px !important;
 }
 
-.lazyload-wrapper  {
-    display: inline-block !important;
-}
-
 @media (max-width: 575px){
 
     #ArticlesPage {
         margin: 50px 0 0 0;
         padding: 0 0 40px 0;
     }
-    
-    #ArticlesPage h1 {
-       font-size: 28px;
-       margin: 40px 0 40px 0;
-    }
-    
-    #ArticlesPage h2 {
-       font-size: 20px;
-       margin: 0 0 40px 0;
-    }
-    
+   
     #ArticlesPage .card {
         min-height: 450px;
         margin: 5px -8px;
         padding: 0 0 !important;
-    }
-    
-    #ArticlesPage .card-img-top {
-        width: 100%;
-        height: 100%;
     }
     
 }
@@ -111,27 +91,11 @@
         padding: 0 0 40px 0;
     }
     
-    #ArticlesPage h1 {
-       font-size: 28px;
-       margin: 40px 0 40px 0;
-    }
-    
-    #ArticlesPage h2 {
-       font-size: 20px;
-       margin: 0 0 40px 0;
-    }
-    
     #ArticlesPage .card {
         min-height: 450px;
         margin: 5px -8px;
         padding: 0 0 !important;
     }
-    
-    #ArticlesPage .card-img-top {
-        width: 100%;
-        height: 100%;
-    }
-
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
@@ -140,27 +104,11 @@
         margin: 50px 0 0 0;
         padding: 0 0 40px 0;
     }
-    
-    #ArticlesPage h1 {
-       font-size: 34px;
-       margin: 40px 0 40px 0;
-    }
-    
-    #ArticlesPage h2 {
-       font-size: 20px;
-       margin: 0 0 40px 0;
-    }
-    
+   
     #ArticlesPage .card {
         min-height: 450px;
         margin: 5px -8px;
         padding: 0 0 !important;
     }
-    
-    #ArticlesPage .card-img-top {
-        width: 100%;
-        height: 100%;
-    }
-
 }
 

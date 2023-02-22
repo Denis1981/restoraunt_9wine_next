@@ -57,7 +57,7 @@ const About = ({ seoData }) => {
         <section id="AboutUs">
                <div className="container">
                    <div className="row">
-                       <div className="col-xxl-7">
+                       <div className="col-xxl-7 col-xl-6">
                            <div className="AboutUs__block">
                                 <h1>Винный ресторан NineWines - это частичка Европы, Нового Света, Кавказа и Крыма в Санкт-Петербурге.</h1>
                                 <p>Ресторан, в котором собраны отборные вина из разных регионов мира от бутиковых производителей Европы, Нового света, Кавказа и Крыма.</p>
@@ -70,8 +70,8 @@ const About = ({ seoData }) => {
                                 />
                            </div>
                        </div>
-                       <div className="col-xxl-1" />
-                       <div className="col-xxl-4">
+                       <div className="col-xxl-1 col-xl-1" />
+                       <div className="col-xxl-4 col-xl-5">
                            <div className="AboutUs__block">
                                 <Image 
                                     src={image2_about} 
@@ -93,7 +93,7 @@ const About = ({ seoData }) => {
                     <div className="row">
                         {
                             sale.map((sale, i) => (
-                               <div className="col-xxl-6" key={sale.id}>
+                               <div className="col-xxl-6 col-lg-6" key={sale.id}>
                                     <h2>{sale.title}</h2>
                                     <p dangerouslySetInnerHTML={{ __html: sale.contentSale }}/>
                                    <div className="special_notes-wine">
@@ -106,7 +106,7 @@ const About = ({ seoData }) => {
                         }
                         {
                             sale.map((sale, i) => (
-                               <div className="col-xxl-6 text-center" key={sale.id}>
+                               <div className="col-xxl-6 col-lg-6 text-center" key={sale.id}>
                                     <Image 
                                         src={sale.photo} 
                                         className="special__special_image1 z-depth-1" 
@@ -130,7 +130,7 @@ const About = ({ seoData }) => {
                         </div>
                    </div>
                    <div className="row">
-                       <div className="col-xxl-4 text-center">
+                       <div className="col-xxl-4 col-lg-12 text-center">
                            <p>Самые изысканные вина <br /> и закуски</p>
                            <Image 
                                 src={image2_aboutBlock} 
@@ -139,7 +139,7 @@ const About = ({ seoData }) => {
                                 title=""
                            />
                        </div>
-                       <div className="col-xxl-4 text-center">
+                       <div className="col-xxl-4 col-lg-6 text-center">
                            <p>Неповторимый, дизайнерский <br /> интерьер</p>
                             <Image 
                                 src={image1_aboutBlock} 
@@ -148,7 +148,7 @@ const About = ({ seoData }) => {
                                 title=""
                             />
                        </div>
-                       <div className="col-xxl-4 text-center">
+                       <div className="col-xxl-4 col-lg-6 text-center">
                            <p>Всегда праздничная <br /> атмосфера </p>
                             <Image 
                                 src={image4_aboutBlock} 
@@ -169,22 +169,23 @@ const About = ({ seoData }) => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-xxl-6">
+                        <div className="col-xxl-6 col-lg-6">
                             <p>
                                 Nine Wines — это также караоке-ресторан, оборудованный самой современной звуковой и световой аппаратурой, и у нас регулярно проходят музыкальные шоу и конкурсы с участием гостей нашего ресторана.
                             </p>
                             <p>
                                 Наша атмосфера располагает к комфортному отдыху — современный стильный интерьер, отменное вино, прекрасная аппаратура! А новичкам и тем, кому нужна компания, помогают звукорежиссер и бэк-вокалисты. В перерывах между выступлениями гостей свою музыку презентуют модные ди-джеи.
                             </p>
-                                <button className="btn karaokeBlock__btn-more z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">узнать больше</button>
+                                <button className="btn karaokeBlock__btn-more z-depth-1 for-pc" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">узнать больше</button>
                         </div>
-                        <div className="col-xxl-6">
+                        <div className="col-xxl-6 col-lg-6">
                             <Image 
                                 src={image1_karaokeBlock} 
                                 className="karaokeBlock__image z-depth-1" 
                                 alt="" 
                                 title="" 
                             />
+                            <button className="btn karaokeBlock__btn-more z-depth-1 for-mob" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">узнать больше</button>
                         </div>
                     </div>
                 </div>

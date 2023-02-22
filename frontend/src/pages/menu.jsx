@@ -69,15 +69,15 @@ const Menu = ({ seoData }) => {
                    </div>
                </div>
                <div className="row MenuPage__wine_menu">
-                   <div className="col-xxl-5 text-center">
+                   <div className="col-xxl-5 col-lg-5 text-center">
                        <Image src={line_menu} className="MenuPage__photo_item"/>
                    </div>
-                   <div className="col-xxl-2 text-center">
+                   <div className="col-xxl-2 col-lg-2 text-center">
                        <h2>wine</h2>
                    </div>
-                   <div className="col-xxl-4 text-center">
+                   <div className="col-xxl-4 col-lg-5 text-center">
                        <Image 
-                       src={line_menu} className="MenuPage__photo_item"/>
+                       src={line_menu} className="MenuPage__photo_item under"/>
                    </div>
                     <div className="col-xxl-12">
                         {
@@ -90,14 +90,14 @@ const Menu = ({ seoData }) => {
                     </div>
                </div>
                 <div className="row MenuPage__winebar_menu">
-                   <div className="col-xxl-5 text-center">
+                   <div className="col-xxl-5 col-lg-4 text-center">
                        <Image src={line_menu} className="MenuPage__photo_item"/>
                    </div>
-                   <div className="col-xxl-2 text-center">
+                   <div className="col-xxl-2 col-lg-4 text-center">
                        <h2>wine & bar</h2>
                    </div>
-                   <div className="col-xxl-5 text-center">
-                       <Image src={line_menu} className="MenuPage__photo_item"/>
+                   <div className="col-xxl-5 col-lg-4 text-center">
+                       <Image src={line_menu} className="MenuPage__photo_item under"/>
                    </div>
                     <div className="col-xxl-12">
                         {
@@ -110,14 +110,14 @@ const Menu = ({ seoData }) => {
                     </div>
                </div>
                 <div className="row MenuPage__bar_menu">
-                   <div className="col-xxl-5 text-center">
+                   <div className="col-xxl-5 col-lg-5 text-center">
                        <Image src={line_menu} className="MenuPage__photo_item"/>
                    </div>
-                   <div className="col-xxl-2 text-center">
+                   <div className="col-xxl-2 col-lg-2 text-center">
                        <h2>bar</h2>
                    </div>
-                   <div className="col-xxl-5 text-center">
-                       <Image src={line_menu} className="MenuPage__photo_item"/>
+                   <div className="col-xxl-5 col-lg-5 text-center">
+                       <Image src={line_menu} className="MenuPage__photo_item under"/>
                    </div>
                     <div className="col-xxl-12">
                         {
@@ -130,14 +130,14 @@ const Menu = ({ seoData }) => {
                     </div>
                </div>
                 <div className="row MenuPage__menu_menu">
-                   <div className="col-xxl-5 text-center">
+                   <div className="col-xxl-5 col-lg-5 text-center">
                        <Image src={line_menu} className="MenuPage__photo_item"/>
                    </div>
-                   <div className="col-xxl-2 text-center">
+                   <div className="col-xxl-2 col-lg-2 text-center">
                        <h2>menu</h2>
                    </div>
-                   <div className="col-xxl-5 text-center">
-                       <Image src={line_menu} className="MenuPage__photo_item"/>
+                   <div className="col-xxl-5 col-lg-5 text-center">
+                       <Image src={line_menu} className="MenuPage__photo_item under"/>
                    </div>
                     <div className="col-xxl-12">
                         {

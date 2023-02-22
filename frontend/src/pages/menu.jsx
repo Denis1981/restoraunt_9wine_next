@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import axios from "axios";
 import { API_URL_MENUREST, API_URL_SEO } from '../api/constant';

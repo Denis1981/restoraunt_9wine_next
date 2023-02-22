@@ -49,7 +49,7 @@ const Celebrates = ({ seoData }) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xxl-8">
+                    <div className="col-xxl-8 col-lg-6">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={bron} 
@@ -57,12 +57,12 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2 data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">
+                            <h4 data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#reserveModal">
                                 Забронировать стол
-                            </h2>
+                            </h4>
                         </div>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-lg-6">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={menus} 
@@ -70,16 +70,16 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2>
+                            <h4>
                                 <Link href="/menu" legacyBehavior>
                                     <a>Меню</a>
                                 </Link>
-                            </h2>
+                            </h4>
                         </div>
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-lg-6">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={degustation} 
@@ -87,14 +87,14 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2>
+                            <h4>
                                 <Link href="/confirm" legacyBehavior>
                                     <a>Дегустационный винный вечер</a>
                                 </Link>
-                            </h2>
+                            </h4>
                         </div>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-lg-6">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={happy} 
@@ -102,14 +102,14 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2>
+                            <h4>
                                 <Link href="/birthday" legacyBehavior>
                                     <a>Винный день рождения</a>
                                 </Link>
-                            </h2>
+                            </h4>
                         </div>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-lg-12">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={gallery} 
@@ -117,16 +117,16 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2>
+                            <h4>
                                 <Link href="/gallery" legacyBehavior>
                                     <a>Галерея</a>
                                 </Link>
-                            </h2>
+                            </h4>
                         </div>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xxl-12">
+                    <div className="col-xxl-12 col-lg-12">
                         <div className="CelebratesPage__itemPage">
                             <Image 
                                 src={nightclub} 
@@ -134,11 +134,11 @@ const Celebrates = ({ seoData }) => {
                                 alt="" 
                                 title=""
                             />
-                            <h2>
+                            <h4>
                                 <Link href="/nightclub" legacyBehavior>
                                     <a>Ночной клуб</a>
                                 </Link>
-                            </h2>
+                            </h4>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,6 @@
 }
 
 #ReviewsPage h1 {
-   font-size: 38px;
    font-family: 'OpenSans-Light',sans-serif;
    font-weight: 600;
    margin: 40px 0 60px 0;
@@ -18,7 +17,6 @@
 }
 
 #ReviewsPage h3 {
-   font-size: 28px;
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
    margin: 10px 0 20px 0;
@@ -27,12 +25,12 @@
 #ReviewsPage p{
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
-   font-size: 16px;
+   font-size: 18px;
 }
 
 #ReviewsPage .reviews__photo {
    width: 100%;
-   height: 280px;
+   height: 305px;
    margin: 0 -20px 0 0 !important;
 }
 
@@ -41,14 +39,12 @@
 */
 
 #ReviewsPage .card {
-    min-height: 300px;
     border: none !important;
     background: #fff;
 }
 
 #ReviewsPage .card-body {
     background: #F7CBA8;
-    min-height: 300px;
     margin: 0 0 0 -25px;
 }
 
@@ -56,6 +52,13 @@
    text-align: right;
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
+   font-size: 20px;
+}
+
+#ReviewsPage .content {
+   font-family: 'OpenSans-Regular',sans-serif;
+   font-weight: 400;
+   font-size: 20px;
 }
 
 #ReviewsPage .card a{
@@ -63,40 +66,144 @@
     font-family: 'OpenSans-Regular',sans-serif;
 }
 
-#ReviewsPage .reviews__photo {
-    width: 100%;
-    height: 300px;
-    margin: 0 -15px 0 0;
-}
-
 @media (max-width: 575px){
 
-		
+   #ReviewsPage {
+      margin: 70px 0 0 0;
+      padding: 0 0 40px 0;
+  }
+  
+  #ReviewsPage h1 {
+     margin: 40px 0 60px 0;
+  }
+  
+  #ReviewsPage h3 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #ReviewsPage .reviews__photo {
+     width: 100%;
+     height: auto;
+     margin: 0 0 0 0;
+  }
+  
+  #ReviewsPage .card-body {
+      margin: 0 0 0 0;
+  }
+  
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) { 
 
+   #ReviewsPage {
+      margin: 70px 0 0 0;
+      padding: 0 0 40px 0;
+  }
+  
+  #ReviewsPage h1 {
+     margin: 40px 0 60px 0;
+  }
+  
+  #ReviewsPage h3 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #ReviewsPage .reviews__photo {
+     width: 100%;
+     height: auto;
+     margin: 0 0 0 0;
+  }
+  
+  #ReviewsPage .card-body {
+      margin: 0 0 0 0;
+  }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
+   #ReviewsPage {
+      margin: 70px 0 0 0;
+      padding: 0 0 40px 0;
+  }
+  
+  #ReviewsPage h1 {
+     margin: 40px 0 60px 0;
+  }
+  
+  #ReviewsPage h3 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #ReviewsPage .reviews__photo {
+     width: 100%;
+     height: auto;
+     margin: 0 0 0 0;
+  }
+  
+  #ReviewsPage .card-body {
+      margin: 0 0 0 0;
+  }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) { 
 
+   #ReviewsPage {
+      margin: 70px 0 0 0;
+      padding: 0 0 40px 0;
+  }
+  
+  #ReviewsPage h1 {
+     margin: 40px 0 60px 0;
+  }
+  
+  #ReviewsPage h3 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #ReviewsPage .reviews__photo {
+     width: 100%;
+     height: auto;
+     margin: 0 0 0 0;
+  }
+  
+  #ReviewsPage .card-body {
+      margin: 0 0 0 0;
+  }
 
 }
 
 
 @media (min-width: 1201px) and (max-width: 1400px) { 
 
+   #ReviewsPage {
+      margin: 70px 0 0 0;
+      padding: 0 0 40px 0;
+  }
+  
+  #ReviewsPage h1 {
+     margin: 40px 0 60px 0;
+  }
+  
+  #ReviewsPage h3 {
+     margin: 10px 0 20px 0;
+  }
+  
+  #ReviewsPage .reviews__photo {
+     width: 100%;
+     height: 315px;
+     margin: 0 0 0 0;
+  }
+  
+  #ReviewsPage .card-body {
+      margin: 0 0 0 -25px;
+  }
+
+  #ReviewsPage .content {
+   font-size: 18px;
+}
 
 }
 
-@media (min-width: 1401px) and (max-width: 2500px) { 
-
-
-}

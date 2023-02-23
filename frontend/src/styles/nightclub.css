@@ -21,7 +21,7 @@
 #NightclubScreen1 p {
    font-size: 20px;
    font-family: 'OpenSans-Regular',sans-serif;
-   font-weight: 600;
+   font-weight: 400;
    margin: 10px auto 20px auto;
    color: #fff;
 }
@@ -48,8 +48,6 @@
 
 }
 
-
-
 /**
 * NightclubScreen2
 **/
@@ -57,15 +55,13 @@
 #NightclubScreen2 {
     overflow: hidden;
     margin: 50px 0 50px 0;
-    /*background: url('./../../assets/background.webp');*/
     background: #fff;
 }
 
 #NightclubScreen2 h2 {
-   font-size: 30px;
    font-family: 'OpenSans-Regular',sans-serif;
    font-weight: 400;
-   margin: 100px 0 40px 0;
+   margin: 50px 0 40px 0;
 }
 
 #NightclubScreen2 .NightclubScreen2__block1 {
@@ -79,7 +75,7 @@
 #NightclubScreen2 p {
    font-size: 20px;
    font-family: 'OpenSans-Regular',sans-serif;
-   font-weight: 600;
+   font-weight: 400;
    color: #000;
    margin: 20px 0;
 }
@@ -118,34 +114,360 @@
    background: #AB0508 !important;
    border: none;
    color: #fff;
-
 }
 
 
 @media (max-width: 575px){
 
-		
+   #NightclubScreen1 {
+      margin: -350px 0 0 0;
+      height: 1200px;
+   }
+
+   #NightclubScreen1 h1 {
+      font-size: 38px;
+      margin: 650px 0 40px 0;
+   }
+
+   #NightclubScreen1 p {
+      font-size: 20px;
+      margin: 250px auto 20px auto;
+   }
+
+   #NightclubScreen1 .btn-reserve {
+      width: 350px;
+      margin: 20px auto 0 auto;
+   }
+
+   #NightclubScreen2 {
+         margin: 50px 0 50px 0;
+   }
+
+   #NightclubScreen2 h2 {
+      margin: 0 0 40px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block1 {
+      margin: 10px auto 20px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block2 {
+      margin: 200px auto 20px auto;
+   }
+
+   #NightclubScreen2 p {
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 img {
+      height: auto;
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image1 {
+      display: none;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image3,
+   #NightclubScreen2 .NightclubScreen2__image4,
+   #NightclubScreen2 .NightclubScreen2__image5{
+      height: 350px;
+      margin: 2px auto;
+   }
+
+   #NightclubScreen2 .btn-reserve {
+      width: 350px;
+      margin: 30px auto 0 auto;
+   }
+  
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) { 
 
+   #NightclubScreen1 {
+      margin: -350px 0 0 0;
+      height: 1200px;
+   }
+
+   #NightclubScreen1 h1 {
+      font-size: 38px;
+      margin: 650px 0 40px 0;
+   }
+
+   #NightclubScreen1 p {
+      font-size: 20px;
+      margin: 250px auto 20px auto;
+   }
+
+   #NightclubScreen1 .btn-reserve {
+      width: 350px;
+      margin: 20px auto 0 auto;
+   }
+
+   #NightclubScreen2 {
+         margin: 50px 0 50px 0;
+   }
+
+   #NightclubScreen2 h2 {
+      margin: 0 0 40px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block1 {
+      margin: 10px auto 20px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block2 {
+      margin: 200px auto 20px auto;
+   }
+
+   #NightclubScreen2 p {
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 img {
+      height: auto;
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image1 {
+      display: none;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image3,
+   #NightclubScreen2 .NightclubScreen2__image4,
+   #NightclubScreen2 .NightclubScreen2__image5{
+      height: 450px;
+      margin: 2px auto;
+   }
+
+   #NightclubScreen2 .btn-reserve {
+         width: 350px;
+         margin: 30px auto 0 auto;
+   }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
+   #NightclubScreen1 {
+      margin: -350px 0 0 0;
+      height: 1200px;
+   }
+
+   #NightclubScreen1 h1 {
+      font-size: 45px;
+      margin: 650px 0 40px 0;
+   }
+
+   #NightclubScreen1 p {
+      font-size: 20px;
+      margin: 250px auto 20px auto;
+   }
+
+   #NightclubScreen1 .btn-reserve {
+      width: 350px;
+      margin: 20px auto 0 auto;
+   }
+
+   #NightclubScreen2 {
+         margin: 50px 0 50px 0;
+   }
+
+   #NightclubScreen2 h2 {
+      margin: 0 0 40px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block1 {
+      margin: 10px auto 20px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block2 {
+      margin: 200px auto 20px auto;
+   }
+
+   #NightclubScreen2 p {
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 img {
+      height: auto;
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image1 {
+      display: none;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image3{
+      height: 450px;
+      margin: 2px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image4{
+      height: 350px;
+      margin: 2px auto;
+      width: 355px;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image5{
+      height: 350px;
+      margin: 2px auto;
+   }
+
+   #NightclubScreen2 .btn-reserve {
+         width: 350px;
+         margin: 30px auto 0 auto;
+   }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) { 
 
+   #NightclubScreen1 {
+      margin: -350px 0 0 0;
+      height: 1200px;
+   }
+
+   #NightclubScreen1 h1 {
+      font-size: 45px;
+      margin: 650px 0 40px 0;
+   }
+
+   #NightclubScreen1 p {
+      font-size: 20px;
+      margin: 250px auto 20px auto;
+   }
+
+   #NightclubScreen1 .btn-reserve {
+      width: 350px;
+      margin: 20px auto 0 auto;
+   }
+
+   #NightclubScreen2 {
+         margin: 50px 0 50px 0;
+   }
+
+   #NightclubScreen2 h2 {
+      margin: 0 0 40px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block1 {
+      margin: 10px auto 20px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block2 {
+      margin: 200px auto 20px auto;
+   }
+
+   #NightclubScreen2 p {
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 img {
+      height: auto;
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image1 {
+      display: none;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image3{
+      height: 300px;
+      margin: 2px auto;
+      width: 315px;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image4{
+      height: 300px;
+      margin: 2px auto;
+      width: 315px;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image5{
+      height: 300px;
+      margin: 2px auto;
+      width: 315px;
+   }
+
+   #NightclubScreen2 .btn-reserve {
+         width: 350px;
+         margin: 30px auto 0 auto;
+   }
 
 }
 
 
 @media (min-width: 1201px) and (max-width: 1400px) { 
 
+   #NightclubScreen1 {
+      margin: -350px 0 0 0;
+      height: 1200px;
+   }
+
+   #NightclubScreen1 h1 {
+      font-size: 45px;
+      margin: 650px 0 40px 0;
+   }
+
+   #NightclubScreen1 p {
+      font-size: 20px;
+      margin: 250px auto 20px auto;
+   }
+
+   #NightclubScreen1 .btn-reserve {
+      width: 350px;
+      margin: 20px auto 0 auto;
+   }
+
+   #NightclubScreen2 {
+         margin: 50px 0 50px 0;
+   }
+
+   #NightclubScreen2 h2 {
+      margin: 0 0 40px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block1 {
+      margin: 10px auto 20px auto;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__block2 {
+      margin: 200px auto 20px auto;
+   }
+
+   #NightclubScreen2 p {
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 img {
+      height: auto;
+      margin: 20px 0;
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image3{
+      height: 300px;
+      margin: 2px auto;
+      
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image4{
+      height: 300px;
+      margin: 2px auto;
+     
+   }
+
+   #NightclubScreen2 .NightclubScreen2__image5{
+      height: 300px;
+      margin: 2px auto;
+      
+   }
+
+   #NightclubScreen2 .btn-reserve {
+         width: 350px;
+         margin: 30px auto 0 auto;
+   }
 
 }
 

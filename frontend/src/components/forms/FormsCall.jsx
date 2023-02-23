@@ -39,7 +39,7 @@ const FormsCall = () => {
                         <PatternFormat format="+7 (###) ### ####" allowEmptyFormatting mask="_" type="tel" className="form-control" id="phone" name="phone" onChange={handleChange} value={data.phone} required="required"/>
                     </div>
                     <div className="text-center">
-                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a>политики конфиденциальности</a></Link></p>
+                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a target="_blank">политики конфиденциальности</a></Link></p>
                     </div>
                     <button type="submit" className="btn btn-reserve mt-2 z-depth-1">Заказать звонок</button>
                 </form>

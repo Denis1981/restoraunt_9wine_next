@@ -63,7 +63,7 @@ const FormsReserveHappyDrink = () => {
                         <textarea className="form-control" id="comment" placeholder="Комментарий к заказу" name="comment" onChange={handleChange} value={data.comment}/>
                     </div>
                     <div className="text-center">
-                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a>политики конфиденциальности</a></Link></p>
+                    <p>Нажимая на кнопку, вы соглашаетесь с условиями <Link href="/polytics" legacyBehavior><a target="_blank">политики конфиденциальности</a></Link></p>
                     </div>
                     <button type="submit" className="btn btn-reserve mt-2 z-depth-1">Зарезервировать стол</button>
                 </form>

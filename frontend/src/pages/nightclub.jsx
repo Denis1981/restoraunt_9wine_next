@@ -58,14 +58,15 @@ const NightclubPage = ({ seoData }) => {
         <section id="NightclubScreen2">
             <div className="container">
                 <div className="row">
-                    <div className="col-xxl-6">
+                    <div className="col-xxl-6 col-xl-6">
                         <h2><strong>9WINES</strong> — бар-ресторан на каждый день с великолепной, ни на что не похожей винной картой.</h2>
                         <div className="NightclubScreen2__block1">
                             <p>Винотека, собранная по винодельням мира.</p>
                             <p>Адекватные цены за достойное по-настоящему вино, доставленное с тщательным расчетом логистики и без необходимости переплачивать за бренды.</p>
+                            <p>Наша кухня лаконична, великолепно сочетается с винами и утоляет не только гастрономические ожидания, но и аппетит.</p>
                         </div>
                     </div>
-                    <div className="col-xxl-6">
+                    <div className="col-xxl-6 col-xl-6">
                         <Image 
                             src={ night_image1 } 
                             className="NightclubScreen2__image1 z-depth-1" 
@@ -75,22 +76,7 @@ const NightclubPage = ({ seoData }) => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xxl-6">
-                        <Image 
-                            src={ night_image2 } 
-                            className="NightclubScreen2__image2 z-depth-1" 
-                            alt="" 
-                            title=""
-                        />
-                    </div>
-                    <div className="col-xxl-6">
-                        <div className="NightclubScreen2__block2">
-                            <p>Наша кухня лаконична, великолепно сочетается с винами и утоляет не только гастрономические ожидания, но и аппетит.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-xxl-4 text-center">
+                    <div className="col-xxl-4 col-md-12 col-lg-4 text-center">
                         <Image 
                             src={ night_image3 } 
                             className="NightclubScreen2__image3 z-depth-1" 
@@ -98,7 +84,7 @@ const NightclubPage = ({ seoData }) => {
                             title=""
                         />
                     </div>
-                    <div className="col-xxl-4 text-center">
+                    <div className="col-xxl-4 col-md-6 col-lg-4 text-center">
                         <Image 
                             src={ night_image4 } 
                             className="NightclubScreen2__image4 z-depth-1" 
@@ -106,7 +92,7 @@ const NightclubPage = ({ seoData }) => {
                             title=""
                         />
                     </div>
-                    <div className="col-xxl-4 text-center">
+                    <div className="col-xxl-4 col-md-6 col-lg-4 text-center">
                         <Image 
                             src={ night_image5 } 
                             className="NightclubScreen2__image5 z-depth-1" 

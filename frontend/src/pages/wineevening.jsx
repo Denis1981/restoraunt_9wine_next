@@ -45,13 +45,17 @@ const Degustation = ({ deg, seoData, contacts }) => {
                     <div className="col-xxl-6">
                         <h1>Дегустационный винный вечер</h1>
                         <h3>Дегустация великолепных вин и вкуснейших блюд в сопровождении профессионального сомелье в винном баре 9WINES в центре Санкт-Петербурга</h3>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#degustationModal">забронировать место</button>
+                        <div className="row for-pc">
+                            <div className="col-xxl-12">
+                                <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#degustationModal">забронировать место</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="row">
                     {
                     deg.map((deg, i) => (
-                    <div className="col-xxl-4 text-center" key={deg.id}>
+                    <div className="col-xxl-4 col-lg-4 text-center" key={deg.id}>
                         <p>Дата и время</p>
                         <p className="content">{deg.date}</p>
                     </div>
@@ -59,7 +63,7 @@ const Degustation = ({ deg, seoData, contacts }) => {
                     }
                     {
                     contacts.map((contacts, i) => (
-                    <div className="col-xxl-4 text-center" key={contacts.id}>
+                    <div className="col-xxl-4 col-lg-4 text-center" key={contacts.id}>
                         <p>Место</p>
                         <p className="content">{contacts.address}</p>
                     </div>
@@ -67,12 +71,17 @@ const Degustation = ({ deg, seoData, contacts }) => {
                     }
                     {
                     deg.map((deg, i) => (
-                    <div className="col-xxl-4 text-center" key={deg.id}>
+                    <div className="col-xxl-4 col-lg-4 text-center" key={deg.id}>
                         <p>Цена</p>
                         <p className="content">{deg.price} рублей</p>
                     </div>
                     ))
                 }
+                </div>
+                <div className="row for-mobile">
+                    <div className="col-xxl-12 text-center">
+                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#degustationModal">забронировать место</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -82,7 +91,7 @@ const Degustation = ({ deg, seoData, contacts }) => {
                 {
                     deg.map((deg, i) => (
                 <div className="row" key={deg.id}>
-                    <div className="col-xxl-5">
+                    <div className="col-xxl-5 col-lg-6 col-sm-12 col-xs-12">
                         <Image 
                             src={winevening2}
                             alt="" 
@@ -90,7 +99,7 @@ const Degustation = ({ deg, seoData, contacts }) => {
                             className="DegustationBlock2_image z-depth-1" 
                         />
                     </div>
-                    <div className="col-xxl-7">
+                    <div className="col-xxl-7 col-lg-6 col-sm-12 col-xs-12">
                         <h2>Дегустация вина</h2>
                         <p>Винный вечер, где за 1,5 часа увлекательнейшего экскурса в мир вина и его тайн вы погрузитесь в чудесные винодельческие глубины и путешествие по лозам винограда в сопровождении самого оптимистичного сомелье нашего города. В стоимость вечера включены 5 вин и закуски — голодными, грустными и трезвыми не останетесь.</p>
                         <div dangerouslySetInnerHTML={{ __html: deg.content }}/>

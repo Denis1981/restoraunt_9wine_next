@@ -5,7 +5,7 @@ const VideoGallery = () => {
     return (
         <>
         {videoData.map((gallery, index) => (
-            <div className="col-xxl-6 text-center" key={gallery.id}>
+            <div className="col-xxl-6 col-md-6 text-center" key={gallery.id}>
                 <div className="embed-responsive embed-responsive-16by9">
                     <iframe width="100%" height="400" src={gallery.link} frameborder="0" allowfullscreen/>
                 </div>

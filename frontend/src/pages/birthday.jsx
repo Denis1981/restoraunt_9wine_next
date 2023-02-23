@@ -46,19 +46,19 @@ const Birthday = ({ birth, seoData }) => {
         <section id="BirthdayBlock1">
             <div className="container">
                 <div className="row">
-                    <div className="col-xxl-5">
+                    <div className="col-xxl-6 col-xl-6">
                     {
                     birth.map((birth, i) => (
                         <div key={birth.id}>
                             <h1>Отметьте день рождения в центре Санкт-Петербурга</h1>
                             <p>Отпразднуй день рождения «под ключ» с напитками и едой</p>
                             <p className="BirthdayBlock1__price">{birth.price} рублей</p>
-                            <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">запланировать праздник</button>
+                            <button className="btn btn-reserve-menu for-pc z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">запланировать праздник</button>
                         </div>
                         ))
                     }
                     </div>
-                    <div className="col-xxl-7">
+                    <div className="col-xxl-6 col-xl-6">
                         <Image 
                             src={birth0} 
                             alt="" 
@@ -68,13 +68,18 @@ const Birthday = ({ birth, seoData }) => {
                         />
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col-xxl-12 text-center">
+                        <button className="btn btn-reserve-menu for-mobile z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">запланировать праздник</button>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="BirthdayBlock2">
             <div className="container">
                 <div className="row">
-                    <div className="col-xxl-8">
+                    <div className="col-xxl-9 col-xl-8">
                         <h2>О нас</h2>
                         <p>Стильный бар со средиземноморской кухней на Садовой улице.</p>
                         <p>Концепция заведения построена вокруг девятки: по бокалам мы разливаем 9 образцов.</p>
@@ -82,7 +87,7 @@ const Birthday = ({ birth, seoData }) => {
                         <p>Мы много лет работаем в индустрии и поддерживаем связи по всему миру, поэтому в меню вы найдете около 50 позиций по доступной цене. Из каждого популярного региона мира мы взяли несколько интересных образцов.</p>
                         <p>Девять из них мы разливаем по бокалам, эта «девятка» постоянно обновляется новыми хитами.</p>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-3 col-xl-4 text-center">
                         <Image 
                             src={birth9} 
                             alt="" 
@@ -104,7 +109,7 @@ const Birthday = ({ birth, seoData }) => {
                 {
                     birth.map((birth, i) => (
                 <div className="row" key={birth.id}>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                         <Image 
                             src={birth10} 
                             alt="" 
@@ -113,9 +118,9 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya1_title}</h3>
                         <p>{birth.akciya1_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalMusic">забронировать</button>
+                        <button className="btn btn-reserve-menu one z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalMusic">забронировать</button>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                         <Image 
                             src={birth11} 
                             alt="" 
@@ -124,9 +129,9 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya2_title}</h3>
                         <p>{birth.akciya2_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalDrink">забронировать</button>
+                        <button className="btn btn-reserve-menu two z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalDrink">забронировать</button>
                     </div>
-                    <div className="col-xxl-4">
+                    <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                         <Image 
                             src={birth12} 
                             alt="" 
@@ -135,7 +140,7 @@ const Birthday = ({ birth, seoData }) => {
                         />
                         <h3>{birth.akciya3_title}</h3>
                         <p>{birth.akciya3_desc}</p>
-                        <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalPhotograph">забронировать</button>
+                        <button className="btn btn-reserve-menu three z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModalPhotograph">забронировать</button>
                     </div>
                 </div>
                  ))
@@ -189,7 +194,7 @@ const Birthday = ({ birth, seoData }) => {
         <section id="BirthdayBlock6">
             <div className="container">
                 <div className="row">
-                    <div className="col-xxl-5">
+                    <div className="col-xxl-5 col-xl-5">
                         <Image 
                             src={birth13} 
                             alt="" 
@@ -197,7 +202,7 @@ const Birthday = ({ birth, seoData }) => {
                             className="BirthdayBlock6_image z-depth-1" 
                         />
                     </div>
-                    <div className="col-xxl-7 text-center">
+                    <div className="col-xxl-7 col-xl-7 text-center">
                         <h2>Вы готовы праздновать?</h2>
                         <p>Выберите дату и оставьте заявку, мы перезвоним вам в скором времени, чтобы уточнить детали.</p>
                         <button className="btn btn-reserve-menu z-depth-1" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#happyModal">запланировать праздник</button>

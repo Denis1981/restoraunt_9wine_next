@@ -10,7 +10,6 @@
 }
 
 #BirthdayBlock1 h1 {
-   font-size: 38px;
    font-family: 'OpenSans-Bold',sans-serif;
    font-weight: 800;
    margin: 10px 0 40px 0;
@@ -57,15 +56,20 @@
     margin: 0 0 20px 0;
  }
 
+ #BirthdayBlock1 .for-mobile {
+    display: none;
+ }
+
 #BirthdayBlock1 h2,
 #BirthdayBlock2 h2,
 #BirthdayBlock3 h2,
-#BirthdayBlock4 h2 {
-    font-size: 45px;
+#BirthdayBlock4 h2,
+#BirthdayBlock5 h2 {
     font-family: 'OpenSans-Bold',sans-serif;
     font-weight: 800;
-    margin: 60px 0 60px 0;
+    margin: 40px 0 40px 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #BirthdayBlock2 {
@@ -165,7 +169,8 @@
 }
 
 #BirthdayBlock4 p.quota{
-    color: ##E7E4E4;
+    color: #000;
+    opacity: .5;
 }
 
 #BirthdayBlock4 p.price{
@@ -218,7 +223,6 @@
 }
 
 #BirthdayBlock5 h2 {
-    font-size: 45px;
     font-family: 'OpenSans-Bold',sans-serif;
     font-weight: 800;
     margin: 0 0 40px 0;
@@ -258,7 +262,6 @@
     width: 540px;
     border-radius: 5px;
  }
-
 
  #BirthdayBlock6 {
     overflow: hidden;
@@ -314,34 +317,870 @@
     background: #fff;
 }
 
+
+
 @media (max-width: 575px){
 
+    #BirthdayBlock1 {
+        margin: 45px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 40px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 auto 30px auto;
+        display: block;
+
+    }
+
+    #BirthdayBlock4 .card{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_1{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_2 {
+        display: none;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_3 {
+        height: auto;
+        width: 100%;
+        margin: -25px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_4{
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_5 {
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_6{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_7 {
+        display: none;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_8 {
+        height: auto;
+        width: 100%;
+        margin: -23px 0 0 5px;
+     }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 {
+        overflow: hidden;
+        margin: 25px 0;
+        padding: 50px 0 50px 0;
+        background: #FFC29E;
+    }
+    
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: -30px 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
+    
 		
 }
 
 
 @media (min-width: 576px) and (max-width: 767px) { 
 
+    #BirthdayBlock1 {
+        margin: 45px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 40px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .BirthdayBlock3_image{
+        height: auto;
+        width: 100%;
+     }
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 0 30px 0;
+        display: block;
+
+    }
+
+    #BirthdayBlock4 .card{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_1{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_2 {
+        display: none;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_3 {
+        height: auto;
+        width: 100%;
+        margin: -25px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_4{
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_5 {
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_6{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_7 {
+        display: none;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_8 {
+        height: auto;
+        width: 100%;
+        margin: -23px 0 0 5px;
+     }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 {
+        overflow: hidden;
+        margin: 25px 0;
+        padding: 50px 0 50px 0;
+        background: #FFC29E;
+    }
+    
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: -30px 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
 
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
 
+    #BirthdayBlock1 {
+        margin: 45px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 40px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .BirthdayBlock3_image {
+        height: auto;
+        width: 350px;
+     }
+
+     #BirthdayBlock3 .col-md-6 {
+        margin: 0 0 10px 0;
+     }
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 0 30px 0;
+        display: block;
+
+    }
+
+    #BirthdayBlock4 .card{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_1{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_2 {
+        display: none;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_3 {
+        height: auto;
+        width: 100%;
+        margin: -25px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_4{
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_5 {
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_6{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_7 {
+        display: none;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_8 {
+        height: auto;
+        width: 100%;
+        margin: -23px 0 0 5px;
+     }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 {
+        overflow: hidden;
+        margin: 25px 0;
+        padding: 50px 0 50px 0;
+        background: #FFC29E;
+    }
+    
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: -30px 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) { 
 
+    #BirthdayBlock1 {
+        margin: 45px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 40px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .BirthdayBlock3_image {
+        height: 400px;
+        width: 100%;
+     }
+
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 0 30px 0;
+        display: block;
+    }
+
+    #BirthdayBlock4 .card{
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_1{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_2 {
+        display: none;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_3 {
+        height: auto;
+        width: 100%;
+        margin: -25px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_4{
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_5 {
+        height: auto;
+        width: 100%;
+        margin: 5px 0 0 5px;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_6{
+        height: auto;
+        width: 100%;
+     }
+
+     #BirthdayBlock5 .BirthdayBlock5_image_7 {
+        display: none;
+     }
+    
+     #BirthdayBlock5 .BirthdayBlock5_image_8 {
+        height: auto;
+        width: 100%;
+        margin: -23px 0 0 5px;
+     }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 {
+        overflow: hidden;
+        margin: 25px 0;
+        padding: 50px 0 50px 0;
+        background: #FFC29E;
+    }
+    
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: -30px 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
 
 }
 
 
 @media (min-width: 1201px) and (max-width: 1400px) { 
 
+    #BirthdayBlock1 {
+        margin: 45px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 20px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: 400px;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .BirthdayBlock3_image {
+        height: auto;
+        width: 100%;
+     }
+
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 0 30px 0;
+        display: block;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.one{
+        margin-top: 15px !important;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.two{
+        margin-top: 12px !important;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.three{
+        margin-top: 22px !important;
+    }
+
+    #BirthdayBlock4 .card{
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock5 .BirthdayBlock5_image_1,
+    #BirthdayBlock5 .BirthdayBlock5_image_3 {
+        height: 300px;
+        width: 468px;
+    }
+
+    #BirthdayBlock5 .BirthdayBlock5_image_4,
+    #BirthdayBlock5 .BirthdayBlock5_image_5 {
+        height: 400px;
+        width: 565px;
+        margin-top: 0;
+    }
+
+    #BirthdayBlock5 .BirthdayBlock5_image_2,
+    #BirthdayBlock5 .BirthdayBlock5_image_7 {
+        height: 300px;
+        width: 185px;
+        margin-top: 0;
+    }
+
+    #BirthdayBlock5 .BirthdayBlock5_image_6,
+    #BirthdayBlock5 .BirthdayBlock5_image_8 {
+        height: 300px;
+        width: 468px;
+        margin-top: 0;
+    }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: 0 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
 
 }
 
-@media (min-width: 1401px) and (max-width: 2500px) { 
+@media (min-width: 1360px) and (max-width: 1500px) { 
 
+    #BirthdayBlock1 {
+        margin: 75px 0 0 0;
+        padding: 50px 0 30px 0;
+    }
+    
+    #BirthdayBlock1 h1 {
+       margin: 0 0 20px 0;
+    }
+  
+    #BirthdayBlock1 h2{
+        margin: 0 0 20px 0;
+    }
+    
+    #BirthdayBlock1 .BirthdayBlock1_image{
+        height: auto;
+        width: 100%;
+     }
+    
+     #BirthdayBlock1 .btn-reserve-menu {
+        width: 250px;
+        height: 50px;
+        margin: 25px auto 0 auto;
+    }
+    
+    #BirthdayBlock1 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock1 .BirthdayBlock1__price {
+        margin: 0 0 20px 0;
+     }
+
+     #BirthdayBlock1 .for-pc {
+        display: none;
+     }
+
+     #BirthdayBlock1 .for-mobile {
+        display: block;
+     }
+
+    #BirthdayBlock2 {
+        margin: 0 0;
+        padding: 40px 0 20px 0;
+    }
+
+    #BirthdayBlock2 h2{
+        margin: -10px 0 20px 0;
+    }
+    
+    #BirthdayBlock2 p {
+        margin: 0 0 20px 0;
+     }
+    
+     #BirthdayBlock2 .BirthdayBlock2_image{
+        height: 400px;
+        width: 100%;
+     }
+
+     #BirthdayBlock3 {
+        margin: 0 0;
+        padding: 0 0 10px 0;
+    }
+
+    #BirthdayBlock3 .BirthdayBlock3_image {
+        height: auto;
+        width: 100%;
+     }
+
+    #BirthdayBlock3 .btn-reserve-menu {
+        margin: 0 0 30px 0;
+        display: block;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.one{
+        margin-top: 15px !important;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.two{
+        margin-top: 12px !important;
+    }
+
+    #BirthdayBlock3 .btn-reserve-menu.three{
+        margin-top: 22px !important;
+    }
+
+    #BirthdayBlock4 .card{
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    #BirthdayBlock5 {
+        margin: -10px 0 0 0;
+        padding: 0 0 10px 0;
+    }
+
+     #BirthdayBlock6 {
+        margin: 25px 0;
+        padding: 30px 0 30px 0;
+    }
+
+    #BirthdayBlock6 .BirthdayBlock6_image {
+       height: auto;
+       width: 100%;
+       margin: 0 0 0 0;
+    }
+    
+    #BirthdayBlock6 h2 {
+        margin: 20px 0 40px 0;
+    }
 
 }

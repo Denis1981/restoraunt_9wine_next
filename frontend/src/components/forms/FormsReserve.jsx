@@ -42,7 +42,7 @@ const FormsReserve = () => {
 
     return (<>
             <div className="blockForm">
-                <form className="row g-3 formReserve" onSubmit={handleSubmit}>
+                <form className="row g-3 formReserve" onSubmit={handleSubmit} method="post">
                     <div className="col-xxl-6 mb-3">
                         <input type="text" className="form-control" id="title" name="title" onChange={handleChange} placeholder="Ваше имя" value={data.title} required="required"/>
                     </div>

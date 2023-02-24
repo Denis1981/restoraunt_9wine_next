@@ -1,0 +1,81 @@
+/**
+* ThanksPage
+ **/
+
+ #Thanks {
+    overflow: hidden;
+    margin: 75px 0 0 0;
+    padding: 0 0 55px 0;
+    background: #fff;
+}
+
+#Thanks img {
+    margin: 65px 0 65px 0;
+}
+
+#Thanks p {
+    font-size: 20px;
+    font-family: 'OpenSans-Light',sans-serif;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+ }
+
+
+ @media (max-width: 575px){
+
+    #Thanks {
+        margin: 75px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #Thanks img {
+        margin: 25px 0 65px 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    #Thanks p {
+        margin: 0 0 40px 0;
+    }
+		
+ }
+ 
+ 
+ @media (min-width: 576px) and (max-width: 767px) { 
+    
+    #Thanks {
+        margin: 75px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #Thanks img {
+        margin: 25px 0 65px 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    #Thanks p {
+        margin: 0 0 40px 0;
+    }
+ 
+ }
+ 
+ @media (min-width: 768px) and (max-width: 992px) { 
+ 
+    #Thanks {
+        margin: 75px 0 0 0;
+        padding: 0 0 40px 0;
+    }
+    
+    #Thanks img {
+        margin: 25px 0 65px 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    #Thanks p {
+        margin: 0 0 40px 0;
+    }
+
+ }
+ 

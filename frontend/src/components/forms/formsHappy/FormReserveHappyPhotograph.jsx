@@ -23,6 +23,7 @@ const FormsReserveHappyPhotograph = () => {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_HAPPY,
@@ -36,6 +37,7 @@ const FormsReserveHappyPhotograph = () => {
               note: "нужен фотограф"
           }
         });
+        window.location.href = "/thanks";
     };
 
     return (<>

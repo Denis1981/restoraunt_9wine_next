@@ -24,6 +24,7 @@ const FormsReserveDegustation = () => {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_DEGUSTATION,
@@ -36,6 +37,7 @@ const FormsReserveDegustation = () => {
               comment: data.comment
           }
         });
+        window.location.href = "/thanks";
     };
 
     return (<>

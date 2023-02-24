@@ -23,6 +23,7 @@ const FormsReserveHappyMusic = () => {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_HAPPY,
@@ -36,6 +37,7 @@ const FormsReserveHappyMusic = () => {
               note: "нужен вечер живой музыки"
           }
         });
+        window.location.href = "/thanks";
     };
 
     return (<>

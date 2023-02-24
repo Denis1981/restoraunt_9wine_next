@@ -19,6 +19,7 @@ const FormsCall = () => {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_CALL,
@@ -27,6 +28,7 @@ const FormsCall = () => {
               phone: data.phone,
           }
         });
+        window.location.href = "/thanks";
     };
 
     return (<>

@@ -6,12 +6,12 @@ import {
     photo_menu
 } from "../../public";
 
-const NotfoundPage = () => {
+const ThanksPage = () => {
 
     return (
         <>
             <MainLayout 
-                title="Извините, такой страницы не существует | 9wines"
+                title="Ваша заявка принята | 9wines"
             >
             </MainLayout>
             <header>
@@ -27,7 +27,7 @@ const NotfoundPage = () => {
                                     alt="" 
                                     title="" 
                                 />
-                            <p>Извините, такой страницы не существует</p>
+                            <p>Ваша заявка принята. Мы свяжемся с вами в течение 10 минут.</p>
                         </div>
                     </div>
                 </div>
@@ -41,4 +41,4 @@ const NotfoundPage = () => {
 
 }
 
-export default NotfoundPage;
+export default ThanksPage;

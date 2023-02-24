@@ -24,6 +24,7 @@ const FormsReserve = () => {
     };
 
     const handleSubmit = (e) => {
+        e.preventDefault();
         axios({
           method: 'post',
           url: API_URL_CREATE_RESERVE,
@@ -36,6 +37,7 @@ const FormsReserve = () => {
               comment: data.comment
           }
         });
+        window.location.href = "/thanks";
     };
 
     return (<>

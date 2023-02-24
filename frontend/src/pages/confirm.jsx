@@ -34,10 +34,10 @@ const ConfirmPage = () => {
                         </div>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-xxl-2">
+                        <div className="col-xxl-2 col-md-4 col-lg-3 col-xl-3">
                             <Link href="/wineevening" legacyBehavior><a className="btn btn-done z-depth-1">Подтверждаю</a></Link>
                         </div>
-                        <div className="col-xxl-2">
+                        <div className="col-xxl-2 col-md-4 col-lg-3 col-xl-3">
                             <Link href="/" legacyBehavior><a className="btn btn-no z-depth-1">Мне нет 18 лет</a></Link>
                         </div>
                     </div>
